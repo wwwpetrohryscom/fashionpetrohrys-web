@@ -1,4 +1,9 @@
-export type ArticleCategory = "guides" | "outfits" | "clothing" | "psychology";
+export type ArticleCategory =
+  | "system"
+  | "guides"
+  | "outfits"
+  | "clothing"
+  | "psychology";
 
 export type Article = {
   slug: string;
@@ -10,6 +15,15 @@ export type Article = {
 };
 
 export const ARTICLES: Article[] = [
+  {
+    slug: "the-formality-ladder-explained",
+    title: "The Formality Ladder Explained",
+    description:
+      "A 7-level system for placing any garment in social context, plus the ±1 rule that determines whether an outfit holds together.",
+    category: "system",
+    href: "/system/the-formality-ladder-explained",
+    readTime: "9 min read",
+  },
   {
     slug: "capsule-wardrobe-for-men",
     title: "Capsule Wardrobe for Men",

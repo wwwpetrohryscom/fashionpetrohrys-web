@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Section } from "@/components/section";
+import { ArticleCard } from "@/components/article-card";
 import { CtaBlock } from "@/components/cta-block";
+import { articlesByCategory } from "@/data/articles";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
@@ -31,6 +33,8 @@ const DIMENSIONS = [
 ];
 
 export default function SystemPage() {
+  const articles = articlesByCategory("system");
+
   return (
     <div className="space-y-12">
       <Section
@@ -50,10 +54,25 @@ export default function SystemPage() {
 
       <p className="max-w-2xl text-neutral-700">
         The system is the vocabulary. The{" "}
-        <Link className="underline" href="/method">Method</Link> is how you apply it.
-        The <Link className="underline" href="/guides">Guides</Link> are worked
-        examples.
+        <Link className="underline" href="/method">Method</Link> is how you apply
+        it. The <Link className="underline" href="/guides">Guides</Link> are
+        worked examples.
       </p>
+
+      {articles.length > 0 ? (
+        <section className="space-y-5">
+          <h2 className="text-xl font-semibold tracking-tight">
+            Read deeper into the system
+          </h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {articles.map((a) => (
+              <li key={a.slug}>
+                <ArticleCard article={a} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <CtaBlock
         title="See the system applied."
