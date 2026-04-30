@@ -1,6 +1,22 @@
-# FashionPetroHrys — MVP
+# FashionPetroHrys
 
-Minimal Next.js site for the Style Operating System.
+Style Operating System.
+
+This project is focused on building a scalable fashion platform:
+- SEO-driven content system
+- Wardrobe logic and outfit frameworks
+- Future e-commerce layer
+
+## Vision
+
+Not a fashion blog. A system for thinking about style.
+
+## Stack
+
+- Next.js 15 (App Router)
+- React 19
+- Tailwind CSS v4
+- TypeScript
 
 ## Run
 
@@ -21,11 +37,6 @@ Open http://localhost:3000.
 - `/guides/capsule-wardrobe`
 - `/guides/color-anchors`
 
-## Stack
+## Status
 
-- Next.js 15 (App Router)
-- React 19
-- Tailwind CSS v4
-- TypeScript
-
-No MDX, no content layer, no design system — yet. Add when needed.
+MVP scaffold. No MDX, no content layer, no design system yet — added when needed.
