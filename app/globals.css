@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-signal: #e10600;
+}
+
 html {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }

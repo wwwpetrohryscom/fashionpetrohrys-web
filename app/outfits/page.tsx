@@ -1,49 +1,85 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Section } from "@/components/section";
+import { ArticleCard } from "@/components/article-card";
+import { articlesByCategory } from "@/data/articles";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Outfits",
   description: "Worked examples of outfits assembled using the system.",
-};
+  path: "/outfits",
+});
 
-const OUTFITS = [
+const EXAMPLES = [
   {
     name: "Weekday Smart Casual",
-    pieces: ["White oxford shirt", "Charcoal trousers", "Brown leather loafers", "Tan belt"],
+    pieces: [
+      "White oxford shirt",
+      "Charcoal trousers",
+      "Brown leather loafers",
+      "Tan belt",
+    ],
     note: "All four garments sit at smart-casual on the formality ladder. One warm accent (tan) against a cool base.",
   },
   {
     name: "Saturday Casual",
-    pieces: ["Cream knit sweater", "Indigo selvedge jeans", "White leather sneakers"],
-    note: "Three pieces, one silhouette family (regular). Color temperature stays neutral with a single warm note.",
+    pieces: [
+      "Cream knit sweater",
+      "Indigo selvedge jeans",
+      "White leather sneakers",
+    ],
+    note: "Three pieces, one silhouette family (regular). Color stays neutral with a single warm note.",
   },
 ];
 
 export default function OutfitsPage() {
-  return (
-    <div className="space-y-8">
-      <header>
-        <div className="text-xs uppercase tracking-wider text-neutral-500">Outfits</div>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight">Worked examples</h1>
-        <p className="mt-3 text-neutral-600">
-          Each outfit below was assembled using the four dimensions from{" "}
-          <a className="underline" href="/system">The System</a>.
-        </p>
-      </header>
+  const articles = articlesByCategory("outfits");
 
-      <ul className="space-y-5">
-        {OUTFITS.map((o) => (
-          <li
-            key={o.name}
-            className="rounded-lg border border-neutral-200 p-5"
-          >
-            <div className="font-medium">{o.name}</div>
-            <ul className="mt-3 list-disc space-y-1 pl-5 text-neutral-700">
-              {o.pieces.map((p) => <li key={p}>{p}</li>)}
-            </ul>
-            <p className="mt-3 text-sm text-neutral-600">{o.note}</p>
-          </li>
-        ))}
-      </ul>
+  return (
+    <div className="space-y-12">
+      <Section
+        kicker="Outfits"
+        title="Worked examples"
+        description="Each outfit below was assembled using the four dimensions from The System."
+      />
+
+      <section className="space-y-5">
+        <h2 className="text-xl font-semibold tracking-tight">Examples</h2>
+        <ul className="grid gap-4 sm:grid-cols-2">
+          {EXAMPLES.map((o) => (
+            <li
+              key={o.name}
+              className="rounded-lg border border-neutral-200 p-5"
+            >
+              <div className="font-medium">{o.name}</div>
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-neutral-700">
+                {o.pieces.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+              <p className="mt-3 text-sm text-neutral-600">{o.note}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="space-y-5">
+        <h2 className="text-xl font-semibold tracking-tight">Read</h2>
+        <ul className="grid gap-3 sm:grid-cols-2">
+          {articles.map((a) => (
+            <li key={a.slug}>
+              <ArticleCard article={a} />
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <p className="max-w-2xl text-sm text-neutral-600">
+        See{" "}
+        <Link className="underline" href="/system">The System</Link> for the rules
+        every outfit on this page follows.
+      </p>
     </div>
   );
 }

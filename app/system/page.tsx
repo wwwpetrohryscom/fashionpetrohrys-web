@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Section } from "@/components/section";
+import { CtaBlock } from "@/components/cta-block";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "The System",
   description:
     "The vocabulary behind every wardrobe decision: formality, silhouette, color, and layer.",
-};
+  path: "/system",
+});
 
 const DIMENSIONS = [
   {
@@ -13,11 +18,11 @@ const DIMENSIONS = [
   },
   {
     name: "Silhouette",
-    body: "Fitted, regular, relaxed, oversized. Mix at most one loud silhouette per outfit.",
+    body: "Fitted, regular, relaxed, oversized. Mix at most one loud silhouette per outfit; everything else stays regular.",
   },
   {
     name: "Color temperature",
-    body: "Warm, neutral, cool. Anchor your wardrobe to one temperature; the other two are accents.",
+    body: "Warm, neutral, cool. Anchor your wardrobe to one temperature; the other two are accents only.",
   },
   {
     name: "Layer",
@@ -27,30 +32,35 @@ const DIMENSIONS = [
 
 export default function SystemPage() {
   return (
-    <article className="space-y-8">
-      <header>
-        <div className="text-xs uppercase tracking-wider text-neutral-500">System</div>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight">
-          The four dimensions of every outfit
-        </h1>
-      </header>
+    <div className="space-y-12">
+      <Section
+        kicker="System"
+        title="The four dimensions of every outfit"
+        description="Every outfit decision can be reduced to four dimensions. Once you can name them, you can reason about why an outfit works — or why it doesn't."
+      />
 
-      <p className="text-lg text-neutral-700">
-        Every outfit decision can be reduced to four dimensions. Once you can name
-        them, you can reason about why an outfit works — or why it doesn&apos;t.
-      </p>
-
-      <ul className="space-y-5">
+      <ul className="grid gap-4 sm:grid-cols-2">
         {DIMENSIONS.map((d) => (
-          <li
-            key={d.name}
-            className="rounded-lg border border-neutral-200 p-5"
-          >
+          <li key={d.name} className="rounded-lg border border-neutral-200 p-5">
             <div className="font-medium">{d.name}</div>
             <p className="mt-2 text-neutral-700">{d.body}</p>
           </li>
         ))}
       </ul>
-    </article>
+
+      <p className="max-w-2xl text-neutral-700">
+        The system is the vocabulary. The{" "}
+        <Link className="underline" href="/method">Method</Link> is how you apply it.
+        The <Link className="underline" href="/guides">Guides</Link> are worked
+        examples.
+      </p>
+
+      <CtaBlock
+        title="See the system applied."
+        description="Worked examples of outfits built from the four dimensions."
+        ctaLabel="See Outfits"
+        ctaHref="/outfits"
+      />
+    </div>
   );
 }

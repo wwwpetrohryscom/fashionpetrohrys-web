@@ -6,20 +6,21 @@ import { articlesByCategory } from "@/data/articles";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Guides",
-  description: "Practical articles on building a wardrobe that works.",
-  path: "/guides",
+  title: "Psychology",
+  description:
+    "How clothing changes perception — yours and other people's. The signal layer of style.",
+  path: "/psychology",
 });
 
-export default function GuidesPage() {
-  const articles = articlesByCategory("guides");
+export default function PsychologyPage() {
+  const articles = articlesByCategory("psychology");
 
   return (
     <div className="space-y-10">
       <Section
-        kicker="Guides"
-        title="Practical guides for building a real wardrobe"
-        description="Each guide is a step-by-step application of the system. Start with the capsule and work outward."
+        kicker="Psychology"
+        title="Clothing is a signal"
+        description="What you wear changes how others perceive you and how you perceive yourself. The articles below explain which signals matter most and how to send them on purpose."
       />
 
       <ul className="grid gap-3 sm:grid-cols-2">
@@ -31,10 +32,10 @@ export default function GuidesPage() {
       </ul>
 
       <p className="max-w-2xl text-sm text-neutral-600">
-        New here? Read{" "}
+        Want to apply this practically?{" "}
         <Link className="underline" href="/method">The Method</Link> and{" "}
-        <Link className="underline" href="/system">The System</Link> first — every
-        guide assumes that vocabulary.
+        <Link className="underline" href="/guides">Guides</Link> are where signal
+        becomes wardrobe.
       </p>
     </div>
   );
