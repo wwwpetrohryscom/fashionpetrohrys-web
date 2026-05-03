@@ -1,0 +1,141 @@
+{
+  "common": {
+    "brand": "Fashion Area",
+    "tagline": "O sistema operacional do estilo",
+    "allRightsReserved": "Todos os direitos reservados.",
+    "readTime": "min de leitura"
+  },
+  "nav": {
+    "method": "Método",
+    "system": "Sistema",
+    "guides": "Guias",
+    "outfits": "Looks",
+    "clothing": "Roupas",
+    "psychology": "Psicologia",
+    "shop": "Loja"
+  },
+  "footer": {
+    "privacyPolicy": "Política de Privacidade",
+    "cookiePolicy": "Política de Cookies",
+    "privacySettings": "Configurações de privacidade"
+  },
+  "categories": {
+    "system": "Sistema",
+    "guides": "Guias",
+    "outfits": "Looks",
+    "clothing": "Roupas",
+    "psychology": "Psicologia"
+  },
+  "home": {
+    "kicker": "O sistema operacional do estilo",
+    "title": "Estilo é um sistema, não um palpite.",
+    "description": "Fashion Area não é um feed de tendências. É um sistema para tomar decisões estruturadas sobre roupas: o que comprar, o que vestir e por que um look funciona.",
+    "primaryCta": "Começar pelo método",
+    "secondaryCta": "Ver o sistema",
+    "whereToStart": "Por onde começar",
+    "read": "Ler",
+    "entryPoints": {
+      "method": "Como abordamos decisões de estilo.",
+      "system": "As quatro dimensões de cada look.",
+      "guides": "Artigos práticos para montar um guarda-roupa.",
+      "outfits": "Exemplos construídos a partir do sistema.",
+      "clothing": "Como avaliar e comprar peças.",
+      "psychology": "Por que roupas mudam a percepção.",
+      "shop": "Seleção curada que passa pelo sistema."
+    },
+    "ctaTitle": "Monte seu guarda-roupa sobre um sistema.",
+    "ctaDescription": "O método é um processo de 3 etapas para decisões de estilo consistentes: sem adivinhação.",
+    "ctaLabel": "Ler o método"
+  },
+  "cookie": {
+    "bannerTitle": "Preferências de cookies",
+    "bannerBody": "Usamos cookies necessários para operar o site. Cookies de analytics e marketing só carregam após seu consentimento explícito.",
+    "acceptAll": "Aceitar tudo",
+    "rejectNonEssential": "Rejeitar não essenciais",
+    "customize": "Personalizar",
+    "modalTitle": "Configurações de privacidade",
+    "modalBody": "Escolha quais cookies opcionais a Fashion Area pode usar. Você pode alterar isso depois no rodapé.",
+    "save": "Salvar configurações",
+    "cancel": "Cancelar",
+    "necessaryTitle": "Necessários",
+    "necessaryBody": "Obrigatórios para segurança, entrega das páginas e armazenamento do consentimento. Sempre ativos.",
+    "analyticsTitle": "Analytics",
+    "analyticsBody": "Ajuda a entender o uso agregado do site. Google Analytics só carrega quando ativado.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Reservado para publicidade e retargeting. Nenhum script de marketing carrega sem consentimento.",
+    "alwaysOn": "Sempre ativo"
+  },
+  "legal": {
+    "updated": "Atualizado",
+    "privacyTitle": "Política de Privacidade",
+    "privacyDescription": "Como a HELPERG LLC processa dados pessoais para a Fashion Area.",
+    "cookieTitle": "Política de Cookies",
+    "cookieDescription": "Como a Fashion Area usa cookies necessários, de analytics e de marketing.",
+    "company": "Controlador: HELPERG LLC",
+    "contact": "Contato: info@helperg.com"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "O sistema operacional do estilo",
+      "description": "Um sistema para pensar sobre roupas, montar guarda-roupas e tomar melhores decisões de estilo."
+    },
+    "method": {
+      "title": "O método",
+      "description": "Um método claro e repetível para montar um guarda-roupa."
+    },
+    "system": {
+      "title": "O sistema",
+      "description": "O vocabulário por trás de cada decisão: formalidade, silhueta, cor e camada."
+    },
+    "guides": {
+      "title": "Guias",
+      "description": "Artigos práticos para montar um guarda-roupa que funciona."
+    },
+    "outfits": {
+      "title": "Looks",
+      "description": "Exemplos de looks montados com o sistema."
+    },
+    "clothing": {
+      "title": "Roupas",
+      "description": "Como avaliar tecido, construção, caimento e compras."
+    },
+    "psychology": {
+      "title": "Psicologia",
+      "description": "Como roupas mudam a percepção: a sua e a de outras pessoas."
+    },
+    "shop": {
+      "title": "Loja",
+      "description": "Peças curadas que passam pelo sistema. Em breve."
+    }
+  },
+  "articles": {
+    "the-formality-ladder-explained": {
+      "title": "A escada de formalidade explicada",
+      "description": "Um sistema de 7 níveis para colocar qualquer peça em contexto social, mais a regra ±1."
+    },
+    "capsule-wardrobe-for-men": {
+      "title": "Guarda-roupa cápsula masculino",
+      "description": "Doze peças para resolver looks de semana e a regra que decide se uma décima terceira entra."
+    },
+    "how-to-dress-better": {
+      "title": "Como se vestir melhor",
+      "description": "Três restrições que melhoram qualquer look imediatamente sem comprar nada novo."
+    },
+    "simple-outfit-formulas": {
+      "title": "Fórmulas simples de looks",
+      "description": "Quatro fórmulas para 80% da vida real e como variar sem quebrar o sistema."
+    },
+    "how-to-check-clothing-quality": {
+      "title": "Como verificar a qualidade da roupa",
+      "description": "Cinco testes em 90 segundos antes de comprar. A maioria das falhas é visível."
+    },
+    "clothing-and-first-impressions": {
+      "title": "Roupas e primeiras impressões",
+      "description": "Como as pessoas leem suas roupas em segundos e os três sinais mais fortes."
+    },
+    "why-minimal-style-works": {
+      "title": "Por que o estilo minimalista funciona",
+      "description": "Minimalismo é uma restrição, não uma estética. Isto é o que ele realmente entrega."
+    }
+  }
+}

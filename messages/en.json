@@ -1,0 +1,141 @@
+{
+  "common": {
+    "brand": "Fashion Area",
+    "tagline": "The Style Operating System",
+    "allRightsReserved": "All rights reserved.",
+    "readTime": "min read"
+  },
+  "nav": {
+    "method": "Method",
+    "system": "System",
+    "guides": "Guides",
+    "outfits": "Outfits",
+    "clothing": "Clothing",
+    "psychology": "Psychology",
+    "shop": "Shop"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "privacySettings": "Privacy settings"
+  },
+  "categories": {
+    "system": "System",
+    "guides": "Guides",
+    "outfits": "Outfits",
+    "clothing": "Clothing",
+    "psychology": "Psychology"
+  },
+  "home": {
+    "kicker": "The Style Operating System",
+    "title": "Style is a system, not a guess.",
+    "description": "Fashion Area is not a trend feed. It is a system for making structured decisions about clothing: what to buy, what to wear, and why one outfit works while another does not.",
+    "primaryCta": "Start with the Method",
+    "secondaryCta": "See the System",
+    "whereToStart": "Where to start",
+    "read": "Read",
+    "entryPoints": {
+      "method": "How we approach style decisions.",
+      "system": "The four dimensions of every outfit.",
+      "guides": "Practical articles for building a wardrobe.",
+      "outfits": "Worked examples assembled from the system.",
+      "clothing": "How to evaluate and buy individual pieces.",
+      "psychology": "Why clothing changes how you are perceived.",
+      "shop": "Curated picks that survive the system."
+    },
+    "ctaTitle": "Build your wardrobe on a system.",
+    "ctaDescription": "The Method is a 3-step process for making consistent style decisions: no taste required.",
+    "ctaLabel": "Read the Method"
+  },
+  "cookie": {
+    "bannerTitle": "Cookie preferences",
+    "bannerBody": "We use necessary cookies to run the site. Analytics and marketing cookies load only after your explicit consent.",
+    "acceptAll": "Accept all",
+    "rejectNonEssential": "Reject non-essential",
+    "customize": "Customize",
+    "modalTitle": "Privacy settings",
+    "modalBody": "Choose which optional cookies Fashion Area may use. You can change this later from the footer.",
+    "save": "Save settings",
+    "cancel": "Cancel",
+    "necessaryTitle": "Necessary",
+    "necessaryBody": "Required for security, page delivery, and consent storage. Always active.",
+    "analyticsTitle": "Analytics",
+    "analyticsBody": "Helps us understand aggregate site usage. Google Analytics loads only when enabled.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Reserved for advertising and retargeting pixels. No marketing scripts load unless enabled.",
+    "alwaysOn": "Always on"
+  },
+  "legal": {
+    "updated": "Updated",
+    "privacyTitle": "Privacy Policy",
+    "privacyDescription": "How HELPERG LLC processes personal data for Fashion Area.",
+    "cookieTitle": "Cookie Policy",
+    "cookieDescription": "How Fashion Area uses necessary, analytics, and marketing cookies.",
+    "company": "Controller: HELPERG LLC",
+    "contact": "Contact: info@helperg.com"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "The Style Operating System",
+      "description": "A system for thinking about clothing, building wardrobes, and making better style decisions."
+    },
+    "method": {
+      "title": "The Method",
+      "description": "How we approach style: a clear, repeatable method for building a wardrobe."
+    },
+    "system": {
+      "title": "The System",
+      "description": "The vocabulary behind every wardrobe decision: formality, silhouette, color, and layer."
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "Practical articles on building a wardrobe that works."
+    },
+    "outfits": {
+      "title": "Outfits",
+      "description": "Worked examples of outfits assembled using the system."
+    },
+    "clothing": {
+      "title": "Clothing",
+      "description": "How to evaluate clothing: fabric, construction, fit, and buying decisions."
+    },
+    "psychology": {
+      "title": "Psychology",
+      "description": "How clothing changes perception: yours and other people's."
+    },
+    "shop": {
+      "title": "Shop",
+      "description": "Curated clothing picks that survive the system. Coming soon."
+    }
+  },
+  "articles": {
+    "the-formality-ladder-explained": {
+      "title": "The Formality Ladder Explained",
+      "description": "A 7-level system for placing any garment in social context, plus the ±1 rule that determines whether an outfit holds together."
+    },
+    "capsule-wardrobe-for-men": {
+      "title": "Capsule Wardrobe for Men",
+      "description": "Twelve pieces that solve every weekday outfit problem and the rule that decides whether a thirteenth belongs."
+    },
+    "how-to-dress-better": {
+      "title": "How to Dress Better",
+      "description": "Three constraints that improve any outfit immediately. None of them require buying anything new."
+    },
+    "simple-outfit-formulas": {
+      "title": "Simple Outfit Formulas",
+      "description": "The four formulas that cover 80% of real-world dressing and how to vary them without breaking the system."
+    },
+    "how-to-check-clothing-quality": {
+      "title": "How to Check Clothing Quality",
+      "description": "Five tests you can run in 90 seconds before buying anything. Most failures are visible if you know where to look."
+    },
+    "clothing-and-first-impressions": {
+      "title": "Clothing and First Impressions",
+      "description": "How people read your clothes in the first six seconds and the three signals that move the read most."
+    },
+    "why-minimal-style-works": {
+      "title": "Why Minimal Style Works",
+      "description": "Minimalism is a constraint, not an aesthetic. Here is what the constraint actually buys you."
+    }
+  }
+}

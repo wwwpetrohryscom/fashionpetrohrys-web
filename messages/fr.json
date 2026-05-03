@@ -1,0 +1,141 @@
+{
+  "common": {
+    "brand": "Fashion Area",
+    "tagline": "Le système d'exploitation du style",
+    "allRightsReserved": "Tous droits réservés.",
+    "readTime": "min de lecture"
+  },
+  "nav": {
+    "method": "Méthode",
+    "system": "Système",
+    "guides": "Guides",
+    "outfits": "Tenues",
+    "clothing": "Vêtements",
+    "psychology": "Psychologie",
+    "shop": "Boutique"
+  },
+  "footer": {
+    "privacyPolicy": "Politique de confidentialité",
+    "cookiePolicy": "Politique de cookies",
+    "privacySettings": "Paramètres de confidentialité"
+  },
+  "categories": {
+    "system": "Système",
+    "guides": "Guides",
+    "outfits": "Tenues",
+    "clothing": "Vêtements",
+    "psychology": "Psychologie"
+  },
+  "home": {
+    "kicker": "Le système d'exploitation du style",
+    "title": "Le style est un système, pas une intuition.",
+    "description": "Fashion Area n'est pas un fil de tendances. C'est un système pour prendre des décisions structurées sur les vêtements: quoi acheter, quoi porter et pourquoi une tenue fonctionne.",
+    "primaryCta": "Commencer par la méthode",
+    "secondaryCta": "Voir le système",
+    "whereToStart": "Par où commencer",
+    "read": "Lire",
+    "entryPoints": {
+      "method": "Notre manière de prendre des décisions de style.",
+      "system": "Les quatre dimensions de chaque tenue.",
+      "guides": "Articles pratiques pour construire une garde-robe.",
+      "outfits": "Exemples assemblés avec le système.",
+      "clothing": "Comment évaluer et acheter chaque pièce.",
+      "psychology": "Pourquoi les vêtements changent la perception.",
+      "shop": "Sélection curatée qui respecte le système."
+    },
+    "ctaTitle": "Construis ta garde-robe sur un système.",
+    "ctaDescription": "La méthode est un processus en 3 étapes pour prendre des décisions de style cohérentes: sans deviner.",
+    "ctaLabel": "Lire la méthode"
+  },
+  "cookie": {
+    "bannerTitle": "Préférences de cookies",
+    "bannerBody": "Nous utilisons les cookies nécessaires au fonctionnement du site. Les cookies d'analyse et de marketing ne se chargent qu'après ton consentement explicite.",
+    "acceptAll": "Tout accepter",
+    "rejectNonEssential": "Refuser le non essentiel",
+    "customize": "Personnaliser",
+    "modalTitle": "Paramètres de confidentialité",
+    "modalBody": "Choisis les cookies optionnels que Fashion Area peut utiliser. Tu peux modifier ce choix depuis le pied de page.",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "necessaryTitle": "Nécessaires",
+    "necessaryBody": "Requis pour la sécurité, l'affichage des pages et le stockage du consentement. Toujours actifs.",
+    "analyticsTitle": "Analyse",
+    "analyticsBody": "Nous aide à comprendre l'utilisation agrégée du site. Google Analytics ne charge que si cette option est activée.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Réservé à la publicité et au retargeting. Aucun script marketing ne charge sans consentement.",
+    "alwaysOn": "Toujours actif"
+  },
+  "legal": {
+    "updated": "Mis à jour",
+    "privacyTitle": "Politique de confidentialité",
+    "privacyDescription": "Comment HELPERG LLC traite les données personnelles pour Fashion Area.",
+    "cookieTitle": "Politique de cookies",
+    "cookieDescription": "Comment Fashion Area utilise les cookies nécessaires, d'analyse et de marketing.",
+    "company": "Responsable du traitement: HELPERG LLC",
+    "contact": "Contact: info@helperg.com"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "Le système d'exploitation du style",
+      "description": "Un système pour penser les vêtements, construire une garde-robe et prendre de meilleures décisions de style."
+    },
+    "method": {
+      "title": "La méthode",
+      "description": "Une méthode claire et répétable pour construire une garde-robe."
+    },
+    "system": {
+      "title": "Le système",
+      "description": "Le vocabulaire derrière chaque décision: formalité, silhouette, couleur et couche."
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "Articles pratiques pour construire une garde-robe qui fonctionne."
+    },
+    "outfits": {
+      "title": "Tenues",
+      "description": "Exemples de tenues assemblées avec le système."
+    },
+    "clothing": {
+      "title": "Vêtements",
+      "description": "Comment évaluer tissu, construction, coupe et achats."
+    },
+    "psychology": {
+      "title": "Psychologie",
+      "description": "Comment les vêtements changent la perception: la tienne et celle des autres."
+    },
+    "shop": {
+      "title": "Boutique",
+      "description": "Sélection de vêtements qui respecte le système. Bientôt disponible."
+    }
+  },
+  "articles": {
+    "the-formality-ladder-explained": {
+      "title": "L'échelle de formalité expliquée",
+      "description": "Un système en 7 niveaux pour placer chaque vêtement dans son contexte social, avec la règle ±1."
+    },
+    "capsule-wardrobe-for-men": {
+      "title": "Garde-robe capsule pour homme",
+      "description": "Douze pièces pour résoudre les tenues de semaine et la règle qui décide si une treizième mérite sa place."
+    },
+    "how-to-dress-better": {
+      "title": "Comment mieux s'habiller",
+      "description": "Trois contraintes qui améliorent immédiatement une tenue, sans acheter de nouveaux vêtements."
+    },
+    "simple-outfit-formulas": {
+      "title": "Formules de tenues simples",
+      "description": "Quatre formules pour 80% des situations réelles et comment les varier sans casser le système."
+    },
+    "how-to-check-clothing-quality": {
+      "title": "Comment vérifier la qualité d'un vêtement",
+      "description": "Cinq tests en 90 secondes avant d'acheter. La plupart des défauts sont visibles."
+    },
+    "clothing-and-first-impressions": {
+      "title": "Vêtements et premières impressions",
+      "description": "Comment les gens lisent tes vêtements en quelques secondes et les trois signaux les plus forts."
+    },
+    "why-minimal-style-works": {
+      "title": "Pourquoi le style minimal fonctionne",
+      "description": "Le minimalisme est une contrainte, pas une esthétique. Voici ce qu'il apporte vraiment."
+    }
+  }
+}
