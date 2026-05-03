@@ -1,14 +1,20 @@
 import Link from "next/link";
 import type { Article } from "@/data/articles";
 
-export function ArticleCard({ article }: { article: Article }) {
+type ArticleCardProps = {
+  article: Article & {
+    categoryLabel?: string;
+  };
+};
+
+export function ArticleCard({ article }: ArticleCardProps) {
   return (
     <Link
       href={article.href}
       className="group block h-full rounded-lg border border-neutral-200 p-5 transition-colors hover:border-neutral-900"
     >
       <div className="text-xs uppercase tracking-wider text-neutral-500">
-        {article.category}
+        {article.categoryLabel ?? article.category}
       </div>
       <div className="mt-2 text-lg font-medium leading-snug">
         {article.title}

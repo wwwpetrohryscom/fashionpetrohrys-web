@@ -1,0 +1,141 @@
+{
+  "common": {
+    "brand": "Fashion Area",
+    "tagline": "Das Stil-Betriebssystem",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "readTime": "Min. Lesezeit"
+  },
+  "nav": {
+    "method": "Methode",
+    "system": "System",
+    "guides": "Guides",
+    "outfits": "Outfits",
+    "clothing": "Kleidung",
+    "psychology": "Psychologie",
+    "shop": "Shop"
+  },
+  "footer": {
+    "privacyPolicy": "Datenschutzerklärung",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "privacySettings": "Privatsphäre-Einstellungen"
+  },
+  "categories": {
+    "system": "System",
+    "guides": "Guides",
+    "outfits": "Outfits",
+    "clothing": "Kleidung",
+    "psychology": "Psychologie"
+  },
+  "home": {
+    "kicker": "Das Stil-Betriebssystem",
+    "title": "Stil ist ein System, kein Ratespiel.",
+    "description": "Fashion Area ist kein Trend-Feed. Es ist ein System für strukturierte Entscheidungen über Kleidung: was du kaufst, was du trägst und warum ein Outfit funktioniert.",
+    "primaryCta": "Mit der Methode starten",
+    "secondaryCta": "Das System ansehen",
+    "whereToStart": "Wo anfangen",
+    "read": "Lesen",
+    "entryPoints": {
+      "method": "Wie wir Stilentscheidungen treffen.",
+      "system": "Die vier Dimensionen jedes Outfits.",
+      "guides": "Praktische Artikel für eine bessere Garderobe.",
+      "outfits": "Beispiele, die aus dem System entstehen.",
+      "clothing": "Wie man einzelne Teile bewertet und kauft.",
+      "psychology": "Warum Kleidung Wahrnehmung verändert.",
+      "shop": "Kuratierte Auswahl, die das System besteht."
+    },
+    "ctaTitle": "Baue deine Garderobe auf einem System auf.",
+    "ctaDescription": "Die Methode ist ein 3-Schritte-Prozess für konsistente Stilentscheidungen: ganz ohne Rätselraten.",
+    "ctaLabel": "Methode lesen"
+  },
+  "cookie": {
+    "bannerTitle": "Cookie-Einstellungen",
+    "bannerBody": "Wir verwenden notwendige Cookies für den Betrieb der Website. Analyse- und Marketing-Cookies laden erst nach deiner ausdrücklichen Zustimmung.",
+    "acceptAll": "Alle akzeptieren",
+    "rejectNonEssential": "Nicht notwendige ablehnen",
+    "customize": "Anpassen",
+    "modalTitle": "Privatsphäre-Einstellungen",
+    "modalBody": "Wähle, welche optionalen Cookies Fashion Area verwenden darf. Du kannst dies später im Footer ändern.",
+    "save": "Einstellungen speichern",
+    "cancel": "Abbrechen",
+    "necessaryTitle": "Notwendig",
+    "necessaryBody": "Erforderlich für Sicherheit, Seitenauslieferung und Speicherung der Zustimmung. Immer aktiv.",
+    "analyticsTitle": "Analyse",
+    "analyticsBody": "Hilft uns, die Nutzung der Website aggregiert zu verstehen. Google Analytics lädt nur, wenn diese Option aktiv ist.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Reserviert für Werbung und Retargeting-Pixel. Keine Marketing-Skripte laden ohne Zustimmung.",
+    "alwaysOn": "Immer aktiv"
+  },
+  "legal": {
+    "updated": "Aktualisiert",
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyDescription": "Wie HELPERG LLC personenbezogene Daten für Fashion Area verarbeitet.",
+    "cookieTitle": "Cookie-Richtlinie",
+    "cookieDescription": "Wie Fashion Area notwendige, Analyse- und Marketing-Cookies verwendet.",
+    "company": "Verantwortlicher: HELPERG LLC",
+    "contact": "Kontakt: info@helperg.com"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "Das Stil-Betriebssystem",
+      "description": "Ein System für Kleidung, Garderobenaufbau und bessere Stilentscheidungen."
+    },
+    "method": {
+      "title": "Die Methode",
+      "description": "Ein klarer, wiederholbarer Ansatz für den Aufbau einer Garderobe."
+    },
+    "system": {
+      "title": "Das System",
+      "description": "Das Vokabular hinter jeder Garderobenentscheidung: Formalität, Silhouette, Farbe und Layer."
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "Praktische Artikel für eine Garderobe, die funktioniert."
+    },
+    "outfits": {
+      "title": "Outfits",
+      "description": "Ausgearbeitete Outfits, die mit dem System aufgebaut sind."
+    },
+    "clothing": {
+      "title": "Kleidung",
+      "description": "So bewertest du Stoff, Verarbeitung, Passform und Kaufentscheidungen."
+    },
+    "psychology": {
+      "title": "Psychologie",
+      "description": "Wie Kleidung Wahrnehmung verändert: deine eigene und die anderer Menschen."
+    },
+    "shop": {
+      "title": "Shop",
+      "description": "Kuratierte Kleidung, die das System besteht. Bald verfügbar."
+    }
+  },
+  "articles": {
+    "the-formality-ladder-explained": {
+      "title": "Die Formalitätsleiter erklärt",
+      "description": "Ein 7-Stufen-System für den sozialen Kontext jedes Kleidungsstücks plus die ±1-Regel für stimmige Outfits."
+    },
+    "capsule-wardrobe-for-men": {
+      "title": "Capsule Wardrobe für Männer",
+      "description": "Zwölf Teile für jedes Wochentags-Outfit und die Regel für jedes zusätzliche Teil."
+    },
+    "how-to-dress-better": {
+      "title": "Wie man sich besser kleidet",
+      "description": "Drei Constraints, die jedes Outfit sofort verbessern. Ohne neue Kleidung zu kaufen."
+    },
+    "simple-outfit-formulas": {
+      "title": "Einfache Outfit-Formeln",
+      "description": "Vier Formeln für 80% realer Situationen und wie man sie variiert, ohne das System zu brechen."
+    },
+    "how-to-check-clothing-quality": {
+      "title": "Kleidungsqualität prüfen",
+      "description": "Fünf Tests in 90 Sekunden, bevor du etwas kaufst. Die meisten Fehler sind sichtbar."
+    },
+    "clothing-and-first-impressions": {
+      "title": "Kleidung und erste Eindrücke",
+      "description": "Wie Menschen Kleidung in den ersten Sekunden lesen und welche drei Signale am meisten zählen."
+    },
+    "why-minimal-style-works": {
+      "title": "Warum minimaler Stil funktioniert",
+      "description": "Minimalismus ist ein Constraint, keine Ästhetik. Das bringt er wirklich."
+    }
+  }
+}
