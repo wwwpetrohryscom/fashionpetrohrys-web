@@ -16,7 +16,8 @@ declare global {
   }
 }
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-6490XY79Q4";
 
 function ensureGtag() {
   window.dataLayer = window.dataLayer ?? [];
