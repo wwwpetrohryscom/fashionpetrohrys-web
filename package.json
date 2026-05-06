@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "check:sitemap": "node scripts/check-sitemap.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",
