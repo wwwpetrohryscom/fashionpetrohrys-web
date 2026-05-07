@@ -110,22 +110,51 @@
       "description": "Sélection de vêtements qui respecte le système. Bientôt disponible."
     },
     "perfumes": {
-      "title": "Notes de parfums et critiques de fragrances",
-      "description": "Notes éditoriales de parfums avec tenue, sillage, polyvalence, rapport qualité-prix, notes olfactives, occasions et recommandations claires."
+      "title": "Notes de parfums et classement des fragrances",
+      "description": "Classement éditorial FashionArea des parfums : tenue, sillage, polyvalence, singularité, rapport qualité-prix, notes olfactives et verdicts clairs."
+    },
+    "perfumesTopOfTheTop": {
+      "title": "Top of the Top : Classement des parfums FashionArea",
+      "description": "Les fragrances les mieux notées du classement éditorial FashionArea, jugées sur le profil olfactif, la performance, la polyvalence, la singularité et le rapport qualité-prix."
+    },
+    "perfumesTopOk": {
+      "title": "Top OK : Parfums solides avec des limites",
+      "description": "Parfums solides qui performent bien mais restent sous le sommet du classement éditorial FashionArea pour des raisons de prix, d'originalité ou de polyvalence."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Parfums",
-      "title": "Notes de parfums et critiques de fragrances",
-      "intro": "Critiques de parfums éditoriales notées sur la tenue, le sillage, la polyvalence et le rapport qualité-prix. Pas de moyenne d'étoiles factice, pas d'affiliation déguisée — un rédacteur, une note par parfum, écrites pour des lecteurs qui veulent une réponse claire avant d'acheter.",
-      "systemLink": "Applique au parfum la même logique de décision qu'aux vêtements : contexte, retenue, répétabilité."
+      "title": "Notes de parfums et classement des fragrances",
+      "intro": "Le classement éditorial FashionArea, noté sur le profil olfactif, la performance, la polyvalence, la singularité et le rapport qualité-prix. Un rédacteur, une note par parfum — pas de votes agrégés, pas d'affiliation déguisée.",
+      "ratedBy": "Noté par FashionArea",
+      "systemLink": "Applique au parfum la même logique de décision qu'aux vêtements : contexte, retenue, répétabilité.",
+      "howWeRateTitle": "Comment nous notons les parfums",
+      "howWeRateBody": "Chaque parfum est noté de 1 à 10 sur la tenue, le sillage, la polyvalence, la singularité et le rapport qualité-prix. La note globale est un jugement éditorial, pas une moyenne — elle reflète le comportement réel du parfum à porter."
+    },
+    "tiers": {
+      "topOfTheTopShort": "Top of the Top",
+      "topOkShort": "Top OK",
+      "averageShort": "Moyen",
+      "avoidShort": "À éviter",
+      "topOfTheTopTitle": "Parfums Top of the Top",
+      "topOfTheTopIntro": "Les fragrances les mieux notées du classement éditorial FashionArea. Ces compositions combinent identité, performance et exécution sur plusieurs dimensions.",
+      "topOkTitle": "Parfums Top OK",
+      "topOkIntro": "Des fragrances solides qui performent bien, mais qui restent sous le sommet à cause de limites claires en originalité, prix, sillage ou polyvalence.",
+      "averageTitle": "Parfums moyens",
+      "averageIntro": "Compositions correctes sans véritable raison de les choisir plutôt qu'une autre.",
+      "avoidTitle": "À éviter",
+      "avoidIntro": "Parfums que nous ne pouvons pas recommander — performance faible, caractère daté ou rapport qualité-prix médiocre."
     },
     "labels": {
       "overall": "Global",
+      "rating": "Note",
+      "rank": "Rang",
+      "tier": "Niveau",
       "longevity": "Tenue",
       "projection": "Sillage",
       "versatility": "Polyvalence",
+      "uniqueness": "Singularité",
       "value": "Rapport qualité-prix",
       "outOf": "/ 10",
       "concentration": "Concentration",
@@ -133,6 +162,7 @@
       "seasons": "Meilleures saisons",
       "occasions": "Meilleures occasions",
       "notes": "Pyramide olfactive",
+      "notesDisclaimer": "Notes listées comme accords couramment associés. Lorsque la composition exacte est incertaine, nous restons généraux plutôt que d'inventer une pyramide.",
       "topNotes": "Tête",
       "middleNotes": "Cœur",
       "baseNotes": "Fond",
@@ -145,8 +175,9 @@
       "avoidIf": "À éviter si",
       "related": "Critiques liées",
       "backToList": "Toutes les critiques",
+      "viewTier": "Voir le niveau",
       "review": "Critique",
-      "ratingMethodology": "Note éditoriale, échelle 1–10. Note d'un rédacteur unique, pas d'agrégation d'avis utilisateurs."
+      "ratingMethodology": "Note éditoriale FashionArea, échelle 1–10. Note d'un rédacteur unique, pas d'agrégation d'avis utilisateurs."
     },
     "gender": {
       "men": "Homme",

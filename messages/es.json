@@ -110,22 +110,51 @@
       "description": "Prendas curadas que superan el sistema. Próximamente."
     },
     "perfumes": {
-      "title": "Puntuaciones de perfumes y reseñas de fragancias",
-      "description": "Puntuaciones editoriales de perfumes con duración, proyección, versatilidad, relación calidad-precio, notas, ocasiones y recomendaciones claras."
+      "title": "Puntuaciones de perfumes y ranking de fragancias",
+      "description": "Ranking editorial de FashionArea con puntuaciones de duración, proyección, versatilidad, singularidad, relación calidad-precio, notas y veredictos claros."
+    },
+    "perfumesTopOfTheTop": {
+      "title": "Top of the Top: Ranking de perfumes FashionArea",
+      "description": "Las fragancias mejor puntuadas del ranking editorial de FashionArea, evaluadas por perfil olfativo, rendimiento, versatilidad, singularidad y calidad-precio."
+    },
+    "perfumesTopOk": {
+      "title": "Top OK: Perfumes sólidos con limitaciones",
+      "description": "Perfumes que rinden bien pero quedan por debajo del nivel superior en el ranking editorial de FashionArea por valor, originalidad o versatilidad."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Perfumes",
-      "title": "Puntuaciones de perfumes y reseñas de fragancias",
-      "intro": "Reseñas editoriales de fragancias puntuadas en duración, proyección, versatilidad y relación calidad-precio. Sin promedios falsos de estrellas, sin ruido de afiliación: un editor, una puntuación por perfume, escritas para quien quiera una respuesta clara antes de comprar.",
-      "systemLink": "Aplica al perfume el mismo sistema de decisión que a la ropa: contexto, contención y repetibilidad."
+      "title": "Puntuaciones de perfumes y ranking de fragancias",
+      "intro": "Ranking editorial de FashionArea, puntuado en perfil olfativo, rendimiento, versatilidad, singularidad y relación calidad-precio. Un editor, una puntuación por perfume — sin votos agregados ni ruido de afiliación.",
+      "ratedBy": "Valorado por FashionArea",
+      "systemLink": "Aplica al perfume el mismo sistema de decisión que a la ropa: contexto, contención y repetibilidad.",
+      "howWeRateTitle": "Cómo puntuamos los perfumes",
+      "howWeRateBody": "Cada perfume se puntúa de 1 a 10 en duración, proyección, versatilidad, singularidad y relación calidad-precio. La puntuación general es un juicio editorial, no un promedio: refleja cómo se comporta la fragancia al llevarla."
+    },
+    "tiers": {
+      "topOfTheTopShort": "Top of the Top",
+      "topOkShort": "Top OK",
+      "averageShort": "Medio",
+      "avoidShort": "Evitar",
+      "topOfTheTopTitle": "Perfumes Top of the Top",
+      "topOfTheTopIntro": "Las fragancias mejor puntuadas del ranking editorial de FashionArea. Combinan identidad, rendimiento y ejecución en varias dimensiones.",
+      "topOkTitle": "Perfumes Top OK",
+      "topOkIntro": "Fragancias sólidas con buen rendimiento, pero por debajo del nivel superior por limitaciones claras de originalidad, valor, proyección o versatilidad.",
+      "averageTitle": "Perfumes medios",
+      "averageIntro": "Fragancias correctas sin un motivo claro para elegirlas frente a otras.",
+      "avoidTitle": "Para evitar",
+      "avoidIntro": "Fragancias que no podemos recomendar — generalmente por bajo rendimiento, carácter anticuado o mala relación calidad-precio."
     },
     "labels": {
       "overall": "General",
+      "rating": "Puntuación",
+      "rank": "Posición",
+      "tier": "Nivel",
       "longevity": "Duración",
       "projection": "Proyección",
       "versatility": "Versatilidad",
+      "uniqueness": "Singularidad",
       "value": "Calidad-precio",
       "outOf": "/ 10",
       "concentration": "Concentración",
@@ -133,6 +162,7 @@
       "seasons": "Mejores estaciones",
       "occasions": "Mejores ocasiones",
       "notes": "Pirámide olfativa",
+      "notesDisclaimer": "Notas listadas como acordes habitualmente asociados. Cuando la composición exacta es incierta, mantenemos la descripción general en lugar de inventar una pirámide.",
       "topNotes": "Salida",
       "middleNotes": "Corazón",
       "baseNotes": "Fondo",
@@ -145,8 +175,9 @@
       "avoidIf": "Evita si",
       "related": "Reseñas relacionadas",
       "backToList": "Todas las reseñas",
+      "viewTier": "Ver nivel",
       "review": "Reseña",
-      "ratingMethodology": "Puntuación editorial, escala 1–10. Valoración de un solo editor, sin agregación de votos de usuarios."
+      "ratingMethodology": "Puntuación editorial FashionArea, escala 1–10. Valoración de un solo editor, sin agregación de votos de usuarios."
     },
     "gender": {
       "men": "Hombre",

@@ -5,6 +5,7 @@ type PerfumeScoreLabels = {
   longevity: string;
   projection: string;
   versatility: string;
+  uniqueness: string;
   value: string;
   outOf: string;
 };
@@ -14,6 +15,7 @@ type PerfumeScoreProps = {
   longevity: number;
   projection: number;
   versatility: number;
+  uniqueness: number;
   value: number;
   labels: PerfumeScoreLabels;
 };
@@ -23,6 +25,7 @@ export function PerfumeScore({
   longevity,
   projection,
   versatility,
+  uniqueness,
   value,
   labels,
 }: PerfumeScoreProps) {
@@ -48,6 +51,7 @@ export function PerfumeScore({
         <RatingBar label={labels.longevity} value={longevity} />
         <RatingBar label={labels.projection} value={projection} />
         <RatingBar label={labels.versatility} value={versatility} />
+        <RatingBar label={labels.uniqueness} value={uniqueness} />
         <RatingBar label={labels.value} value={value} />
       </div>
     </section>

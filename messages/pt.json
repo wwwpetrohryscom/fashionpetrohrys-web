@@ -110,22 +110,51 @@
       "description": "Peças curadas que passam pelo sistema. Em breve."
     },
     "perfumes": {
-      "title": "Avaliações de perfumes e resenhas de fragrâncias",
-      "description": "Avaliações editoriais de perfumes com fixação, projeção, versatilidade, custo-benefício, notas, ocasiões e recomendações claras."
+      "title": "Avaliações de perfumes e ranking de fragrâncias",
+      "description": "Ranking editorial da FashionArea com notas para fixação, projeção, versatilidade, singularidade, custo-benefício, notas e veredictos claros."
+    },
+    "perfumesTopOfTheTop": {
+      "title": "Top of the Top: Ranking de perfumes FashionArea",
+      "description": "As fragrâncias com as maiores notas no ranking editorial da FashionArea, avaliadas por perfil olfativo, performance, versatilidade, singularidade e custo-benefício."
+    },
+    "perfumesTopOk": {
+      "title": "Top OK: Perfumes fortes com limites",
+      "description": "Perfumes que performam bem mas ficam abaixo do nível superior no ranking editorial da FashionArea por valor, originalidade ou versatilidade."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Perfumes",
-      "title": "Avaliações de perfumes e resenhas de fragrâncias",
-      "intro": "Resenhas editoriais de fragrâncias avaliadas por fixação, projeção, versatilidade e custo-benefício. Sem médias falsas de estrelas, sem ruído de afiliados — um editor, uma nota por perfume, escritas para quem quer uma resposta clara antes de comprar.",
-      "systemLink": "Aplique ao perfume o mesmo sistema de decisão usado para roupas: contexto, contenção e repetibilidade."
+      "title": "Avaliações de perfumes e ranking de fragrâncias",
+      "intro": "Ranking editorial da FashionArea, avaliado por perfil olfativo, performance, versatilidade, singularidade e custo-benefício. Um editor, uma nota por perfume — sem votos agregados, sem ruído de afiliados.",
+      "ratedBy": "Avaliado pela FashionArea",
+      "systemLink": "Aplique ao perfume o mesmo sistema de decisão usado para roupas: contexto, contenção e repetibilidade.",
+      "howWeRateTitle": "Como avaliamos perfumes",
+      "howWeRateBody": "Cada perfume é avaliado de 1 a 10 em fixação, projeção, versatilidade, singularidade e custo-benefício. A nota geral é um julgamento editorial, não uma média — reflete como a fragrância se comporta em uso real."
+    },
+    "tiers": {
+      "topOfTheTopShort": "Top of the Top",
+      "topOkShort": "Top OK",
+      "averageShort": "Médio",
+      "avoidShort": "Evitar",
+      "topOfTheTopTitle": "Perfumes Top of the Top",
+      "topOfTheTopIntro": "As fragrâncias com as maiores notas no ranking editorial da FashionArea. Combinam identidade, performance e execução em várias dimensões.",
+      "topOkTitle": "Perfumes Top OK",
+      "topOkIntro": "Fragrâncias fortes com bom desempenho, mas abaixo do nível superior por limitações claras de originalidade, valor, projeção ou versatilidade.",
+      "averageTitle": "Perfumes médios",
+      "averageIntro": "Fragrâncias competentes sem motivo claro para preferi-las.",
+      "avoidTitle": "Para evitar",
+      "avoidIntro": "Fragrâncias que não recomendamos — geralmente por desempenho fraco, caráter datado ou mau custo-benefício."
     },
     "labels": {
       "overall": "Geral",
+      "rating": "Nota",
+      "rank": "Posição",
+      "tier": "Nível",
       "longevity": "Fixação",
       "projection": "Projeção",
       "versatility": "Versatilidade",
+      "uniqueness": "Singularidade",
       "value": "Custo-benefício",
       "outOf": "/ 10",
       "concentration": "Concentração",
@@ -133,6 +162,7 @@
       "seasons": "Melhores estações",
       "occasions": "Melhores ocasiões",
       "notes": "Pirâmide olfativa",
+      "notesDisclaimer": "Notas listadas como acordes comumente associados. Quando a composição exata é incerta, mantemos a descrição geral em vez de inventar uma pirâmide.",
       "topNotes": "Saída",
       "middleNotes": "Coração",
       "baseNotes": "Fundo",
@@ -145,8 +175,9 @@
       "avoidIf": "Evite se",
       "related": "Resenhas relacionadas",
       "backToList": "Todas as resenhas",
+      "viewTier": "Ver nível",
       "review": "Resenha",
-      "ratingMethodology": "Avaliação editorial, escala 1–10. Nota de um único editor, sem agregação de votos de usuários."
+      "ratingMethodology": "Avaliação editorial FashionArea, escala 1–10. Nota de um único editor, sem agregação de votos de usuários."
     },
     "gender": {
       "men": "Masculino",

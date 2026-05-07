@@ -110,22 +110,51 @@
       "description": "Kuratierte Kleidung, die das System besteht. Bald verfügbar."
     },
     "perfumes": {
-      "title": "Parfum-Bewertungen und Duft-Reviews",
-      "description": "Redaktionelle Parfum-Bewertungen mit Haltbarkeit, Sillage, Vielseitigkeit, Preis-Leistung, Duftnoten, Anlässen und klaren Empfehlungen."
+      "title": "Parfum-Bewertungen und Duft-Rankings",
+      "description": "Redaktionelle Parfum-Rankings von FashionArea mit Bewertungen für Haltbarkeit, Sillage, Vielseitigkeit, Einzigartigkeit, Preis-Leistung, Duftnoten und klaren Empfehlungen."
+    },
+    "perfumesTopOfTheTop": {
+      "title": "Top of the Top Perfums: FashionArea-Ranking",
+      "description": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von FashionArea, beurteilt nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung."
+    },
+    "perfumesTopOk": {
+      "title": "Top OK Perfums: Starke Düfte mit Grenzen",
+      "description": "Starke Parfums mit guter Leistung, die im redaktionellen FashionArea-Ranking unterhalb der Spitze bleiben — wegen Preis-Leistung, Originalität oder Vielseitigkeit."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Parfums",
-      "title": "Parfum-Bewertungen und Duft-Reviews",
-      "intro": "Redaktionelle Duftbewertungen nach Haltbarkeit, Sillage, Vielseitigkeit und Preis-Leistung. Keine erfundenen Sterne-Durchschnitte, kein Affiliate-Lärm — ein Redakteur, eine Bewertung pro Parfum, geschrieben für alle, die vor dem Kauf eine klare Antwort wollen.",
-      "systemLink": "Nutze für Duft dasselbe Entscheidungssystem wie für Kleidung: Kontext, Zurückhaltung, Wiederholbarkeit."
+      "title": "Parfum-Bewertungen und Duft-Rankings",
+      "intro": "FashionArea's redaktionelles Ranking, bewertet nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung. Ein Redakteur, eine Bewertung pro Parfum — keine aggregierten Nutzerstimmen, kein Affiliate-Lärm.",
+      "ratedBy": "Bewertet von FashionArea",
+      "systemLink": "Nutze für Duft dasselbe Entscheidungssystem wie für Kleidung: Kontext, Zurückhaltung, Wiederholbarkeit.",
+      "howWeRateTitle": "Wie wir Parfums bewerten",
+      "howWeRateBody": "Jedes Parfum wird auf einer Skala von 1–10 in Haltbarkeit, Sillage, Vielseitigkeit, Einzigartigkeit und Preis-Leistung bewertet. Die Gesamtnote ist ein redaktionelles Urteil, kein Durchschnitt — sie spiegelt das tatsächliche Tragverhalten wider, nicht ein Marketing-Briefing."
+    },
+    "tiers": {
+      "topOfTheTopShort": "Top of the Top",
+      "topOkShort": "Top OK",
+      "averageShort": "Durchschnitt",
+      "avoidShort": "Meiden",
+      "topOfTheTopTitle": "Top of the Top Perfums",
+      "topOfTheTopIntro": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von FashionArea. Diese Kompositionen verbinden Identität, Leistung und Ausführung über mehrere Dimensionen hinweg überzeugend.",
+      "topOkTitle": "Top OK Perfums",
+      "topOkIntro": "Starke Düfte, die gut performen, aber wegen klarer Einschränkungen bei Originalität, Preis-Leistung, Sillage oder Kontextspielraum unterhalb der Spitze liegen.",
+      "averageTitle": "Durchschnittliche Perfums",
+      "averageIntro": "Solide Düfte ohne starkes Argument, sie anderen vorzuziehen.",
+      "avoidTitle": "Zu meiden",
+      "avoidIntro": "Düfte, die wir nicht empfehlen — meist wegen schwacher Leistung, veralteter Charakteristik oder schlechtem Preis-Leistungs-Verhältnis."
     },
     "labels": {
       "overall": "Gesamt",
+      "rating": "Bewertung",
+      "rank": "Platz",
+      "tier": "Tier",
       "longevity": "Haltbarkeit",
       "projection": "Sillage",
       "versatility": "Vielseitigkeit",
+      "uniqueness": "Einzigartigkeit",
       "value": "Preis-Leistung",
       "outOf": "/ 10",
       "concentration": "Konzentration",
@@ -133,6 +162,7 @@
       "seasons": "Beste Jahreszeiten",
       "occasions": "Beste Anlässe",
       "notes": "Duftpyramide",
+      "notesDisclaimer": "Noten als häufig zugeschriebene Akkorde aufgeführt. Wenn die genaue Zusammensetzung unsicher ist, halten wir die Beschreibung hochwertig statt eine Pyramide zu erfinden.",
       "topNotes": "Kopf",
       "middleNotes": "Herz",
       "baseNotes": "Basis",
@@ -145,8 +175,9 @@
       "avoidIf": "Vermeide wenn",
       "related": "Verwandte Reviews",
       "backToList": "Alle Parfum-Reviews",
+      "viewTier": "Tier ansehen",
       "review": "Review",
-      "ratingMethodology": "Redaktionelle Bewertung, Skala 1–10. Einzelne Redakteursbewertung, keine aggregierten Nutzerbewertungen."
+      "ratingMethodology": "Redaktionelle FashionArea-Bewertung, Skala 1–10. Einzelne Redakteursbewertung, keine aggregierten Nutzerbewertungen."
     },
     "gender": {
       "men": "Herren",

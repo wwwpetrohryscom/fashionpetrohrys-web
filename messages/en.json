@@ -110,22 +110,51 @@
       "description": "Curated clothing picks that survive the system. Coming soon."
     },
     "perfumes": {
-      "title": "Perfume Ratings and Fragrance Reviews",
-      "description": "Editorial perfume ratings with longevity, projection, versatility, value, scent notes, occasions, and clear recommendations."
+      "title": "Perfume Ratings and Fragrance Rankings",
+      "description": "FashionArea's editorial perfume rankings with scores for longevity, projection, versatility, uniqueness, value, notes, and clear verdicts."
+    },
+    "perfumesTopOfTheTop": {
+      "title": "Top of the Top Perfumes: FashionArea Ranking",
+      "description": "The highest-rated fragrances in FashionArea's editorial ranking, scored by scent profile, performance, versatility, uniqueness, and value."
+    },
+    "perfumesTopOk": {
+      "title": "Top OK Perfumes: Strong Fragrances with Limits",
+      "description": "Strong perfumes that perform well but sit below the top tier in FashionArea's editorial ranking due to value, originality, or versatility limits."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Perfumes",
-      "title": "Perfume Ratings and Fragrance Reviews",
-      "intro": "Editorial fragrance reviews scored on longevity, projection, versatility, and value. No fake star averages, no affiliate noise — one editor, one rating per perfume, written for people who want a clear answer before they buy.",
-      "systemLink": "Use the same decision system for scent as for clothing: context, restraint, and repeatability."
+      "title": "Perfume Ratings and Fragrance Rankings",
+      "intro": "FashionArea's editorial ranking, scored on scent profile, performance, versatility, uniqueness, and value. One editor, one rating per perfume — no aggregated user votes, no affiliate noise.",
+      "ratedBy": "Rated by FashionArea",
+      "systemLink": "Use the same decision system for scent as for clothing: context, restraint, and repeatability.",
+      "howWeRateTitle": "How we rate perfumes",
+      "howWeRateBody": "Each perfume is scored 1–10 across longevity, projection, versatility, uniqueness, and value. The overall rating is an editorial judgement, not an average — it reflects how the fragrance behaves in real wear, not a marketing brief."
+    },
+    "tiers": {
+      "topOfTheTopShort": "Top of the Top",
+      "topOkShort": "Top OK",
+      "averageShort": "Average",
+      "avoidShort": "Avoid",
+      "topOfTheTopTitle": "Top of the Top Perfumes",
+      "topOfTheTopIntro": "The highest-rated fragrances in FashionArea's editorial ranking. These compositions combine identity, performance, and execution well enough to justify their tier across multiple dimensions.",
+      "topOkTitle": "Top OK Perfumes",
+      "topOkIntro": "Strong fragrances that perform well, but sit below the top tier because of clear limitations in originality, value, projection, or context range.",
+      "averageTitle": "Average Perfumes",
+      "averageIntro": "Competent fragrances without a strong reason to choose them over peers.",
+      "avoidTitle": "Avoid",
+      "avoidIntro": "Fragrances we cannot recommend — usually because of weak performance, dated character, or poor value."
     },
     "labels": {
       "overall": "Overall",
+      "rating": "Rating",
+      "rank": "Rank",
+      "tier": "Tier",
       "longevity": "Longevity",
       "projection": "Projection",
       "versatility": "Versatility",
+      "uniqueness": "Uniqueness",
       "value": "Value",
       "outOf": "/ 10",
       "concentration": "Concentration",
@@ -133,6 +162,7 @@
       "seasons": "Best seasons",
       "occasions": "Best occasions",
       "notes": "Note pyramid",
+      "notesDisclaimer": "Notes listed as commonly associated accords. Where exact composition is uncertain, we keep the description high-level rather than invent a pyramid.",
       "topNotes": "Top",
       "middleNotes": "Heart",
       "baseNotes": "Base",
@@ -145,8 +175,9 @@
       "avoidIf": "Avoid if",
       "related": "Related reviews",
       "backToList": "All perfume reviews",
+      "viewTier": "View tier",
       "review": "Review",
-      "ratingMethodology": "Editorial rating, 1–10 scale. Single-reviewer score, no aggregated user ratings."
+      "ratingMethodology": "FashionArea editorial rating, 1–10 scale. Single-reviewer score, no aggregated user ratings."
     },
     "gender": {
       "men": "Men",
