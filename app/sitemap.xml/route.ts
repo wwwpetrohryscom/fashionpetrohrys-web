@@ -32,6 +32,19 @@ const ARTICLE_ROUTES: SitemapEntry[] = ARTICLES.map((article) => ({
   priority: "0.7",
 }));
 
+const PERFUME_TIER_ROUTES: SitemapEntry[] = [
+  {
+    path: "/perfumes/top-of-the-top",
+    changeFrequency: "monthly",
+    priority: "0.75",
+  },
+  {
+    path: "/perfumes/top-ok",
+    changeFrequency: "monthly",
+    priority: "0.75",
+  },
+];
+
 const PERFUME_ROUTES: SitemapEntry[] = PERFUMES.map((perfume) => ({
   path: `/perfumes/${perfume.slug}`,
   changeFrequency: "monthly",
@@ -52,6 +65,7 @@ const ROUTES: SitemapEntry[] = [
   ...HOME_ROUTES,
   ...CATEGORY_ROUTES,
   ...ARTICLE_ROUTES,
+  ...PERFUME_TIER_ROUTES,
   ...PERFUME_ROUTES,
   ...SHOP_ROUTES,
   ...LEGAL_ROUTES,

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/json-ld";
 import { PerfumeScore } from "@/components/perfume-score";
+import { PerfumeTierBadge } from "@/components/perfume-tier-badge";
 import { Section } from "@/components/section";
 import {
   PERFUMES,
@@ -12,6 +13,7 @@ import {
 } from "@/data/perfumes";
 import { LOCALES, isLocale, localizePath, type Locale } from "@/lib/i18n";
 import { getMessages, type Messages } from "@/lib/messages";
+import { TIER_PATHS, getTierLabels } from "@/lib/perfume-tiers";
 import { SITE_CONFIG, buildMetadata } from "@/lib/seo";
 
 type PerfumeReviewPageProps = {
@@ -61,7 +63,7 @@ function buildProductJsonLd(perfume: PerfumeRating, locale: Locale) {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: perfume.name,
+    name: perfume.fullName,
     brand: {
       "@type": "Brand",
       name: perfume.brand,
@@ -74,6 +76,7 @@ function buildProductJsonLd(perfume: PerfumeRating, locale: Locale) {
         "@type": "Organization",
         name: SITE_CONFIG.name,
       },
+      name: `${perfume.fullName} Review`,
       datePublished: perfume.publishedAt,
       reviewBody: perfume.review.verdict,
       reviewRating: {
@@ -84,7 +87,7 @@ function buildProductJsonLd(perfume: PerfumeRating, locale: Locale) {
       },
       itemReviewed: {
         "@type": "Product",
-        name: perfume.name,
+        name: perfume.fullName,
         brand: { "@type": "Brand", name: perfume.brand },
       },
       url,
@@ -114,7 +117,7 @@ function buildBreadcrumbJsonLd(perfume: PerfumeRating, locale: Locale) {
       {
         "@type": "ListItem",
         position: 3,
-        name: perfume.name,
+        name: perfume.fullName,
         item: new URL(
           localizePath(locale, `/perfumes/${perfume.slug}`),
           base,
@@ -142,9 +145,11 @@ export default async function PerfumeReviewPage({
 
   const messages = getMessages(locale);
   const labels = messages.perfumes.labels;
+  const tierLabels = getTierLabels(messages);
   const related = getRelatedPerfumes(slug);
   const genderLabel =
     messages.perfumes.gender[perfume.gender] ?? perfume.gender;
+  const tierPath = TIER_PATHS[perfume.tier];
 
   return (
     <article className="space-y-10">
@@ -165,13 +170,43 @@ export default async function PerfumeReviewPage({
             </Link>
           </li>
           <li aria-hidden="true">/</li>
+          {tierPath ? (
+            <>
+              <li>
+                <Link
+                  className="hover:text-neutral-900"
+                  href={localizePath(locale, tierPath)}
+                >
+                  {tierLabels[perfume.tier]}
+                </Link>
+              </li>
+              <li aria-hidden="true">/</li>
+            </>
+          ) : null}
           <li className="text-neutral-700">{perfume.brand}</li>
         </ol>
       </nav>
 
+      <div className="flex flex-wrap items-center gap-3">
+        <PerfumeTierBadge
+          tier={perfume.tier}
+          label={tierLabels[perfume.tier]}
+        />
+        <span className="text-xs uppercase tracking-widest text-neutral-500">
+          {labels.rank} #{perfume.rank}
+        </span>
+        <span className="text-xs uppercase tracking-widest text-neutral-500">
+          {messages.perfumes.category.ratedBy}
+        </span>
+      </div>
+
       <Section
-        kicker={`${perfume.brand} · ${perfume.concentration}`}
-        title={`${perfume.name} ${labels.review}`}
+        kicker={
+          perfume.concentration
+            ? `${perfume.brand} · ${perfume.concentration}`
+            : perfume.brand
+        }
+        title={`${perfume.fullName} ${labels.review}`}
         description={perfume.shortDescription}
       />
 
@@ -180,12 +215,14 @@ export default async function PerfumeReviewPage({
         longevity={perfume.longevity}
         projection={perfume.projection}
         versatility={perfume.versatility}
+        uniqueness={perfume.uniqueness}
         value={perfume.value}
         labels={{
           overall: labels.overall,
           longevity: labels.longevity,
           projection: labels.projection,
           versatility: labels.versatility,
+          uniqueness: labels.uniqueness,
           value: labels.value,
           outOf: labels.outOf,
         }}
@@ -202,7 +239,9 @@ export default async function PerfumeReviewPage({
           <div className="text-xs uppercase tracking-widest text-neutral-500">
             {labels.concentration}
           </div>
-          <div className="mt-2 text-neutral-900">{perfume.concentration}</div>
+          <div className="mt-2 text-neutral-900">
+            {perfume.concentration ?? "—"}
+          </div>
         </div>
         <div className="rounded-lg border border-neutral-200 p-5">
           <div className="text-xs uppercase tracking-widest text-neutral-500">
@@ -253,6 +292,7 @@ export default async function PerfumeReviewPage({
             </div>
           ))}
         </div>
+        <p className="text-xs text-neutral-500">{labels.notesDisclaimer}</p>
       </section>
 
       <div className="max-w-2xl space-y-6 text-neutral-700">
@@ -333,7 +373,14 @@ export default async function PerfumeReviewPage({
                   className="block rounded-lg border border-neutral-200 p-4 transition-colors hover:border-neutral-900"
                   href={localizePath(locale, `/perfumes/${r.slug}`)}
                 >
-                  <div className="text-xs uppercase tracking-wider text-neutral-500">
+                  <div className="flex items-center gap-2">
+                    <PerfumeTierBadge
+                      tier={r.tier}
+                      label={tierLabels[r.tier]}
+                      size="sm"
+                    />
+                  </div>
+                  <div className="mt-2 text-xs uppercase tracking-wider text-neutral-500">
                     {r.brand}
                   </div>
                   <div className="mt-1 text-sm font-medium text-neutral-900">
