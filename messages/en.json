@@ -12,6 +12,7 @@
     "outfits": "Outfits",
     "clothing": "Clothing",
     "psychology": "Psychology",
+    "perfumes": "Perfumes",
     "shop": "Shop"
   },
   "footer": {
@@ -41,6 +42,7 @@
       "outfits": "Worked examples assembled from the system.",
       "clothing": "How to evaluate and buy individual pieces.",
       "psychology": "Why clothing changes how you are perceived.",
+      "perfumes": "Editorial fragrance ratings and reviews.",
       "shop": "Curated picks that survive the system."
     },
     "ctaTitle": "Build your wardrobe on a system.",
@@ -106,6 +108,57 @@
     "shop": {
       "title": "Shop",
       "description": "Curated clothing picks that survive the system. Coming soon."
+    },
+    "perfumes": {
+      "title": "Perfume Ratings and Fragrance Reviews",
+      "description": "Editorial perfume ratings with longevity, projection, versatility, value, scent notes, occasions, and clear recommendations."
+    }
+  },
+  "perfumes": {
+    "category": {
+      "kicker": "Perfumes",
+      "title": "Perfume Ratings and Fragrance Reviews",
+      "intro": "Editorial fragrance reviews scored on longevity, projection, versatility, and value. No fake star averages, no affiliate noise — one editor, one rating per perfume, written for people who want a clear answer before they buy.",
+      "systemLink": "Use the same decision system for scent as for clothing: context, restraint, and repeatability."
+    },
+    "labels": {
+      "overall": "Overall",
+      "longevity": "Longevity",
+      "projection": "Projection",
+      "versatility": "Versatility",
+      "value": "Value",
+      "outOf": "/ 10",
+      "concentration": "Concentration",
+      "gender": "Gender",
+      "seasons": "Best seasons",
+      "occasions": "Best occasions",
+      "notes": "Note pyramid",
+      "topNotes": "Top",
+      "middleNotes": "Heart",
+      "baseNotes": "Base",
+      "pros": "Pros",
+      "cons": "Cons",
+      "verdict": "Verdict",
+      "scentProfile": "Scent profile",
+      "performance": "Performance",
+      "bestFor": "Best for",
+      "avoidIf": "Avoid if",
+      "related": "Related reviews",
+      "backToList": "All perfume reviews",
+      "review": "Review",
+      "ratingMethodology": "Editorial rating, 1–10 scale. Single-reviewer score, no aggregated user ratings."
+    },
+    "gender": {
+      "men": "Men",
+      "women": "Women",
+      "unisex": "Unisex"
+    },
+    "seasons": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn",
+      "winter": "Winter",
+      "early autumn": "Early autumn"
     }
   },
   "articles": {

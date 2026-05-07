@@ -12,6 +12,7 @@
     "outfits": "Tenues",
     "clothing": "Vêtements",
     "psychology": "Psychologie",
+    "perfumes": "Parfums",
     "shop": "Boutique"
   },
   "footer": {
@@ -41,6 +42,7 @@
       "outfits": "Exemples assemblés avec le système.",
       "clothing": "Comment évaluer et acheter chaque pièce.",
       "psychology": "Pourquoi les vêtements changent la perception.",
+      "perfumes": "Notes éditoriales et critiques de parfums.",
       "shop": "Sélection curatée qui respecte le système."
     },
     "ctaTitle": "Construis ta garde-robe sur un système.",
@@ -106,6 +108,57 @@
     "shop": {
       "title": "Boutique",
       "description": "Sélection de vêtements qui respecte le système. Bientôt disponible."
+    },
+    "perfumes": {
+      "title": "Notes de parfums et critiques de fragrances",
+      "description": "Notes éditoriales de parfums avec tenue, sillage, polyvalence, rapport qualité-prix, notes olfactives, occasions et recommandations claires."
+    }
+  },
+  "perfumes": {
+    "category": {
+      "kicker": "Parfums",
+      "title": "Notes de parfums et critiques de fragrances",
+      "intro": "Critiques de parfums éditoriales notées sur la tenue, le sillage, la polyvalence et le rapport qualité-prix. Pas de moyenne d'étoiles factice, pas d'affiliation déguisée — un rédacteur, une note par parfum, écrites pour des lecteurs qui veulent une réponse claire avant d'acheter.",
+      "systemLink": "Applique au parfum la même logique de décision qu'aux vêtements : contexte, retenue, répétabilité."
+    },
+    "labels": {
+      "overall": "Global",
+      "longevity": "Tenue",
+      "projection": "Sillage",
+      "versatility": "Polyvalence",
+      "value": "Rapport qualité-prix",
+      "outOf": "/ 10",
+      "concentration": "Concentration",
+      "gender": "Cible",
+      "seasons": "Meilleures saisons",
+      "occasions": "Meilleures occasions",
+      "notes": "Pyramide olfactive",
+      "topNotes": "Tête",
+      "middleNotes": "Cœur",
+      "baseNotes": "Fond",
+      "pros": "Points forts",
+      "cons": "Points faibles",
+      "verdict": "Verdict",
+      "scentProfile": "Profil olfactif",
+      "performance": "Performance",
+      "bestFor": "Idéal pour",
+      "avoidIf": "À éviter si",
+      "related": "Critiques liées",
+      "backToList": "Toutes les critiques",
+      "review": "Critique",
+      "ratingMethodology": "Note éditoriale, échelle 1–10. Note d'un rédacteur unique, pas d'agrégation d'avis utilisateurs."
+    },
+    "gender": {
+      "men": "Homme",
+      "women": "Femme",
+      "unisex": "Unisexe"
+    },
+    "seasons": {
+      "spring": "Printemps",
+      "summer": "Été",
+      "autumn": "Automne",
+      "winter": "Hiver",
+      "early autumn": "Début d'automne"
     }
   },
   "articles": {

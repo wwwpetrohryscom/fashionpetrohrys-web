@@ -12,6 +12,7 @@
     "outfits": "Outfits",
     "clothing": "Ropa",
     "psychology": "Psicología",
+    "perfumes": "Perfumes",
     "shop": "Tienda"
   },
   "footer": {
@@ -41,6 +42,7 @@
       "outfits": "Ejemplos trabajados desde el sistema.",
       "clothing": "Cómo evaluar y comprar prendas.",
       "psychology": "Por qué la ropa cambia la percepción.",
+      "perfumes": "Reseñas y puntuaciones editoriales de fragancias.",
       "shop": "Selección curada que supera el sistema."
     },
     "ctaTitle": "Construye tu guardarropa sobre un sistema.",
@@ -106,6 +108,57 @@
     "shop": {
       "title": "Tienda",
       "description": "Prendas curadas que superan el sistema. Próximamente."
+    },
+    "perfumes": {
+      "title": "Puntuaciones de perfumes y reseñas de fragancias",
+      "description": "Puntuaciones editoriales de perfumes con duración, proyección, versatilidad, relación calidad-precio, notas, ocasiones y recomendaciones claras."
+    }
+  },
+  "perfumes": {
+    "category": {
+      "kicker": "Perfumes",
+      "title": "Puntuaciones de perfumes y reseñas de fragancias",
+      "intro": "Reseñas editoriales de fragancias puntuadas en duración, proyección, versatilidad y relación calidad-precio. Sin promedios falsos de estrellas, sin ruido de afiliación: un editor, una puntuación por perfume, escritas para quien quiera una respuesta clara antes de comprar.",
+      "systemLink": "Aplica al perfume el mismo sistema de decisión que a la ropa: contexto, contención y repetibilidad."
+    },
+    "labels": {
+      "overall": "General",
+      "longevity": "Duración",
+      "projection": "Proyección",
+      "versatility": "Versatilidad",
+      "value": "Calidad-precio",
+      "outOf": "/ 10",
+      "concentration": "Concentración",
+      "gender": "Público",
+      "seasons": "Mejores estaciones",
+      "occasions": "Mejores ocasiones",
+      "notes": "Pirámide olfativa",
+      "topNotes": "Salida",
+      "middleNotes": "Corazón",
+      "baseNotes": "Fondo",
+      "pros": "Ventajas",
+      "cons": "Inconvenientes",
+      "verdict": "Veredicto",
+      "scentProfile": "Perfil olfativo",
+      "performance": "Rendimiento",
+      "bestFor": "Ideal para",
+      "avoidIf": "Evita si",
+      "related": "Reseñas relacionadas",
+      "backToList": "Todas las reseñas",
+      "review": "Reseña",
+      "ratingMethodology": "Puntuación editorial, escala 1–10. Valoración de un solo editor, sin agregación de votos de usuarios."
+    },
+    "gender": {
+      "men": "Hombre",
+      "women": "Mujer",
+      "unisex": "Unisex"
+    },
+    "seasons": {
+      "spring": "Primavera",
+      "summer": "Verano",
+      "autumn": "Otoño",
+      "winter": "Invierno",
+      "early autumn": "Inicios de otoño"
     }
   },
   "articles": {

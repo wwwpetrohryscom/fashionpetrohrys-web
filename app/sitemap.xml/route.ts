@@ -1,13 +1,15 @@
 import { ARTICLES } from "@/data/articles";
+import { PERFUMES } from "@/data/perfumes";
 import { LOCALES, localizePath, type Locale } from "@/lib/i18n";
 import { SITE_CONFIG } from "@/lib/seo";
 
-const LAST_MODIFIED = "2026-05-05T00:00:00.000Z";
+const LAST_MODIFIED = "2026-05-07T00:00:00.000Z";
 
 type SitemapEntry = {
   path: string;
   changeFrequency: "weekly" | "monthly" | "yearly";
   priority: string;
+  lastModified?: string;
 };
 
 const HOME_ROUTES: SitemapEntry[] = [
@@ -21,12 +23,20 @@ const CATEGORY_ROUTES: SitemapEntry[] = [
   { path: "/outfits", changeFrequency: "monthly", priority: "0.8" },
   { path: "/clothing", changeFrequency: "monthly", priority: "0.8" },
   { path: "/psychology", changeFrequency: "monthly", priority: "0.8" },
+  { path: "/perfumes", changeFrequency: "monthly", priority: "0.8" },
 ];
 
 const ARTICLE_ROUTES: SitemapEntry[] = ARTICLES.map((article) => ({
   path: article.href,
   changeFrequency: "monthly",
   priority: "0.7",
+}));
+
+const PERFUME_ROUTES: SitemapEntry[] = PERFUMES.map((perfume) => ({
+  path: `/perfumes/${perfume.slug}`,
+  changeFrequency: "monthly",
+  priority: "0.7",
+  lastModified: new Date(perfume.updatedAt).toISOString(),
 }));
 
 const SHOP_ROUTES: SitemapEntry[] = [
@@ -42,6 +52,7 @@ const ROUTES: SitemapEntry[] = [
   ...HOME_ROUTES,
   ...CATEGORY_ROUTES,
   ...ARTICLE_ROUTES,
+  ...PERFUME_ROUTES,
   ...SHOP_ROUTES,
   ...LEGAL_ROUTES,
 ];
@@ -63,11 +74,12 @@ function renderSitemap() {
   const urls = ROUTES.flatMap((route) =>
     LOCALES.map((locale) => {
       const loc = escapeXml(absoluteUrl(locale, route.path));
+      const lastmod = route.lastModified ?? LAST_MODIFIED;
 
       return [
         "  <url>",
         `    <loc>${loc}</loc>`,
-        `    <lastmod>${LAST_MODIFIED}</lastmod>`,
+        `    <lastmod>${lastmod}</lastmod>`,
         `    <changefreq>${route.changeFrequency}</changefreq>`,
         `    <priority>${route.priority}</priority>`,
         "  </url>",

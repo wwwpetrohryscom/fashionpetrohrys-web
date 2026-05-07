@@ -12,6 +12,7 @@
     "outfits": "Outfits",
     "clothing": "Kleidung",
     "psychology": "Psychologie",
+    "perfumes": "Parfums",
     "shop": "Shop"
   },
   "footer": {
@@ -41,6 +42,7 @@
       "outfits": "Beispiele, die aus dem System entstehen.",
       "clothing": "Wie man einzelne Teile bewertet und kauft.",
       "psychology": "Warum Kleidung Wahrnehmung verändert.",
+      "perfumes": "Redaktionelle Duftbewertungen und Reviews.",
       "shop": "Kuratierte Auswahl, die das System besteht."
     },
     "ctaTitle": "Baue deine Garderobe auf einem System auf.",
@@ -106,6 +108,57 @@
     "shop": {
       "title": "Shop",
       "description": "Kuratierte Kleidung, die das System besteht. Bald verfügbar."
+    },
+    "perfumes": {
+      "title": "Parfum-Bewertungen und Duft-Reviews",
+      "description": "Redaktionelle Parfum-Bewertungen mit Haltbarkeit, Sillage, Vielseitigkeit, Preis-Leistung, Duftnoten, Anlässen und klaren Empfehlungen."
+    }
+  },
+  "perfumes": {
+    "category": {
+      "kicker": "Parfums",
+      "title": "Parfum-Bewertungen und Duft-Reviews",
+      "intro": "Redaktionelle Duftbewertungen nach Haltbarkeit, Sillage, Vielseitigkeit und Preis-Leistung. Keine erfundenen Sterne-Durchschnitte, kein Affiliate-Lärm — ein Redakteur, eine Bewertung pro Parfum, geschrieben für alle, die vor dem Kauf eine klare Antwort wollen.",
+      "systemLink": "Nutze für Duft dasselbe Entscheidungssystem wie für Kleidung: Kontext, Zurückhaltung, Wiederholbarkeit."
+    },
+    "labels": {
+      "overall": "Gesamt",
+      "longevity": "Haltbarkeit",
+      "projection": "Sillage",
+      "versatility": "Vielseitigkeit",
+      "value": "Preis-Leistung",
+      "outOf": "/ 10",
+      "concentration": "Konzentration",
+      "gender": "Zielgruppe",
+      "seasons": "Beste Jahreszeiten",
+      "occasions": "Beste Anlässe",
+      "notes": "Duftpyramide",
+      "topNotes": "Kopf",
+      "middleNotes": "Herz",
+      "baseNotes": "Basis",
+      "pros": "Vorteile",
+      "cons": "Nachteile",
+      "verdict": "Fazit",
+      "scentProfile": "Duftprofil",
+      "performance": "Leistung",
+      "bestFor": "Geeignet für",
+      "avoidIf": "Vermeide wenn",
+      "related": "Verwandte Reviews",
+      "backToList": "Alle Parfum-Reviews",
+      "review": "Review",
+      "ratingMethodology": "Redaktionelle Bewertung, Skala 1–10. Einzelne Redakteursbewertung, keine aggregierten Nutzerbewertungen."
+    },
+    "gender": {
+      "men": "Herren",
+      "women": "Damen",
+      "unisex": "Unisex"
+    },
+    "seasons": {
+      "spring": "Frühling",
+      "summer": "Sommer",
+      "autumn": "Herbst",
+      "winter": "Winter",
+      "early autumn": "Früher Herbst"
     }
   },
   "articles": {
