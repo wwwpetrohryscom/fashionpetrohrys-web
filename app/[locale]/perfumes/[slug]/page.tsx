@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/json-ld";
+import { PerfumeProductImage } from "@/components/perfume-product-image";
 import { PerfumeScore } from "@/components/perfume-score";
 import { PerfumeTierBadge } from "@/components/perfume-tier-badge";
-import { Section } from "@/components/section";
 import {
   PERFUMES,
   getPerfumeBySlug,
@@ -40,12 +40,18 @@ export async function generateMetadata({
     notFound();
   }
 
+  const ogImage =
+    perfume.bottleImage && perfume.bottleImage.sourceType !== "placeholder"
+      ? perfume.bottleImage.src
+      : undefined;
+
   return buildMetadata({
     title: perfume.metaTitle,
     description: perfume.metaDescription,
     path: `/perfumes/${perfume.slug}`,
     type: "article",
     locale: requestedLocale,
+    image: ogImage,
   });
 }
 
@@ -60,6 +66,11 @@ function buildProductJsonLd(perfume: PerfumeRating, locale: Locale) {
     SITE_CONFIG.url,
   ).toString();
 
+  const image =
+    perfume.bottleImage && perfume.bottleImage.sourceType !== "placeholder"
+      ? new URL(perfume.bottleImage.src, SITE_CONFIG.url).toString()
+      : undefined;
+
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -68,6 +79,7 @@ function buildProductJsonLd(perfume: PerfumeRating, locale: Locale) {
       "@type": "Brand",
       name: perfume.brand,
     },
+    ...(image ? { image } : {}),
     category: "Fragrance",
     description: perfume.shortDescription,
     review: {
@@ -152,7 +164,7 @@ export default async function PerfumeReviewPage({
   const tierPath = TIER_PATHS[perfume.tier];
 
   return (
-    <article className="space-y-10">
+    <article className="space-y-12">
       <JsonLd data={buildProductJsonLd(perfume, locale)} />
       <JsonLd data={buildBreadcrumbJsonLd(perfume, locale)} />
 
@@ -187,46 +199,57 @@ export default async function PerfumeReviewPage({
         </ol>
       </nav>
 
-      <div className="flex flex-wrap items-center gap-3">
-        <PerfumeTierBadge
-          tier={perfume.tier}
-          label={tierLabels[perfume.tier]}
-        />
-        <span className="text-xs uppercase tracking-widest text-neutral-500">
-          {labels.rank} #{perfume.rank}
-        </span>
-        <span className="text-xs uppercase tracking-widest text-neutral-500">
-          {messages.perfumes.category.ratedBy}
-        </span>
-      </div>
+      <section className="grid gap-8 lg:grid-cols-[minmax(0,360px)_1fr] lg:items-start">
+        <div className="flex justify-center lg:justify-start">
+          <PerfumeProductImage perfume={perfume} size="lg" priority />
+        </div>
 
-      <Section
-        kicker={
-          perfume.concentration
-            ? `${perfume.brand} · ${perfume.concentration}`
-            : perfume.brand
-        }
-        title={`${perfume.fullName} ${labels.review}`}
-        description={perfume.shortDescription}
-      />
+        <div className="space-y-5">
+          <div className="flex flex-wrap items-center gap-3">
+            <PerfumeTierBadge
+              tier={perfume.tier}
+              label={tierLabels[perfume.tier]}
+            />
+            <span className="text-xs uppercase tracking-widest text-neutral-500">
+              {labels.rank} #{perfume.rank}
+            </span>
+            <span className="text-xs uppercase tracking-widest text-neutral-500">
+              {messages.perfumes.category.ratedBy}
+            </span>
+          </div>
 
-      <PerfumeScore
-        rating={perfume.rating}
-        longevity={perfume.longevity}
-        projection={perfume.projection}
-        versatility={perfume.versatility}
-        uniqueness={perfume.uniqueness}
-        value={perfume.value}
-        labels={{
-          overall: labels.overall,
-          longevity: labels.longevity,
-          projection: labels.projection,
-          versatility: labels.versatility,
-          uniqueness: labels.uniqueness,
-          value: labels.value,
-          outOf: labels.outOf,
-        }}
-      />
+          <div>
+            <div className="text-xs uppercase tracking-wider text-neutral-500">
+              {perfume.brand}
+              {perfume.concentration ? ` · ${perfume.concentration}` : ""}
+            </div>
+            <h1 className="mt-2 text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl">
+              {perfume.fullName} {labels.review}
+            </h1>
+            <p className="mt-3 max-w-2xl text-lg text-neutral-600">
+              {perfume.shortDescription}
+            </p>
+          </div>
+
+          <PerfumeScore
+            rating={perfume.rating}
+            longevity={perfume.longevity}
+            projection={perfume.projection}
+            versatility={perfume.versatility}
+            uniqueness={perfume.uniqueness}
+            value={perfume.value}
+            labels={{
+              overall: labels.overall,
+              longevity: labels.longevity,
+              projection: labels.projection,
+              versatility: labels.versatility,
+              uniqueness: labels.uniqueness,
+              value: labels.value,
+              outOf: labels.outOf,
+            }}
+          />
+        </div>
+      </section>
 
       <section className="grid gap-4 sm:grid-cols-2">
         <div className="rounded-lg border border-neutral-200 p-5">
@@ -366,28 +389,31 @@ export default async function PerfumeReviewPage({
           <h2 className="text-xl font-semibold text-neutral-900">
             {labels.related}
           </h2>
-          <ul className="grid gap-3 sm:grid-cols-2">
+          <ul className="grid gap-4 sm:grid-cols-3">
             {related.map((r) => (
               <li key={r.slug}>
                 <Link
-                  className="block rounded-lg border border-neutral-200 p-4 transition-colors hover:border-neutral-900"
+                  className="block h-full rounded-2xl border border-neutral-200 p-4 transition-colors hover:border-neutral-900"
                   href={localizePath(locale, `/perfumes/${r.slug}`)}
                 >
-                  <div className="flex items-center gap-2">
+                  <div className="flex justify-center">
+                    <PerfumeProductImage perfume={r} size="sm" />
+                  </div>
+                  <div className="mt-3 flex items-center gap-2">
                     <PerfumeTierBadge
                       tier={r.tier}
                       label={tierLabels[r.tier]}
                       size="sm"
                     />
+                    <span className="ml-auto text-xs font-semibold tabular-nums text-neutral-700">
+                      {r.rating.toFixed(1)} {labels.outOf}
+                    </span>
                   </div>
                   <div className="mt-2 text-xs uppercase tracking-wider text-neutral-500">
                     {r.brand}
                   </div>
                   <div className="mt-1 text-sm font-medium text-neutral-900">
                     {r.name}
-                  </div>
-                  <div className="mt-1 text-xs text-neutral-500">
-                    {r.rating.toFixed(1)} {labels.outOf}
                   </div>
                 </Link>
               </li>

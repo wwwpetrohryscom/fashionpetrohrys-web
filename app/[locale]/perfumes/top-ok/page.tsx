@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PerfumeRatingCard } from "@/components/perfume-rating-card";
-import { Section } from "@/components/section";
+import { PerfumeTierSection } from "@/components/perfume-tier-section";
 import { getPerfumesByTier } from "@/data/perfumes";
 import { localizePath } from "@/lib/i18n";
 import { type LocalePageProps, resolveLocale } from "@/lib/locale-page";
 import { getMessages } from "@/lib/messages";
+import { getCompactScorecardLabels } from "@/lib/perfume-labels";
 import { getTierLabels } from "@/lib/perfume-tiers";
 import { buildMetadata } from "@/lib/seo";
 
@@ -30,6 +30,7 @@ export default async function PerfumesTopOkPage({ params }: LocalePageProps) {
   const messages = getMessages(locale);
   const labels = messages.perfumes.labels;
   const tierLabels = getTierLabels(messages);
+  const scorecardLabels = getCompactScorecardLabels(messages);
 
   const perfumes = getPerfumesByTier("top-ok");
 
@@ -55,25 +56,18 @@ export default async function PerfumesTopOkPage({ params }: LocalePageProps) {
         </ol>
       </nav>
 
-      <Section
-        kicker={messages.perfumes.category.kicker}
+      <PerfumeTierSection
         title={messages.perfumes.tiers.topOkTitle}
-        description={messages.perfumes.tiers.topOkIntro}
+        intro={messages.perfumes.tiers.topOkIntro}
+        perfumes={perfumes}
+        buildHref={(slug) => localizePath(locale, `/perfumes/${slug}`)}
+        outOfLabel={labels.outOf}
+        ctaLabel={labels.readReview}
+        rankLabel={labels.rank}
+        scorecardLabels={scorecardLabels}
+        tierLabels={tierLabels}
+        variant="regular"
       />
-
-      <ol className="grid gap-4 sm:grid-cols-2">
-        {perfumes.map((perfume) => (
-          <li key={perfume.slug}>
-            <PerfumeRatingCard
-              perfume={perfume}
-              href={localizePath(locale, `/perfumes/${perfume.slug}`)}
-              outOfLabel={labels.outOf}
-              tierLabels={tierLabels}
-              showRank
-            />
-          </li>
-        ))}
-      </ol>
 
       <p className="max-w-2xl text-sm text-neutral-500">
         {labels.ratingMethodology}

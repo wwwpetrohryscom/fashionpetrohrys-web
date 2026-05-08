@@ -6,6 +6,20 @@ export type PerfumeTier =
 
 export type PerfumeGender = "men" | "women" | "unisex";
 
+export type PerfumeImageSource =
+  | "official"
+  | "licensed"
+  | "user-provided"
+  | "placeholder";
+
+export type PerfumeImage = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  sourceType: PerfumeImageSource;
+};
+
 export type PerfumeRating = {
   slug: string;
   name: string;
@@ -28,6 +42,9 @@ export type PerfumeRating = {
     middle: string[];
     base: string[];
   };
+  bottleImage?: PerfumeImage;
+  boxImage?: PerfumeImage;
+  heroImage?: PerfumeImage;
   metaTitle: string;
   metaDescription: string;
   shortDescription: string;
@@ -46,6 +63,16 @@ export type PerfumeRating = {
   updatedAt: string;
 };
 
+function placeholderBottle(slug: string, fullName: string): PerfumeImage {
+  return {
+    src: `/images/perfumes/${slug}-bottle.webp`,
+    alt: `${fullName} bottle illustration`,
+    width: 800,
+    height: 1000,
+    sourceType: "placeholder",
+  };
+}
+
 export const TIER_ORDER: PerfumeTier[] = [
   "top-of-the-top",
   "top-ok",
@@ -55,7 +82,7 @@ export const TIER_ORDER: PerfumeTier[] = [
 
 const PUBLISHED = "2026-05-07";
 
-export const PERFUMES: PerfumeRating[] = [
+const RAW_PERFUMES: PerfumeRating[] = [
   // ─────────────────────────────────────────────
   // Tier 1 — Top of the Top
   // ─────────────────────────────────────────────
@@ -933,6 +960,11 @@ export const PERFUMES: PerfumeRating[] = [
     updatedAt: PUBLISHED,
   },
 ];
+
+export const PERFUMES: PerfumeRating[] = RAW_PERFUMES.map((p) => ({
+  ...p,
+  bottleImage: p.bottleImage ?? placeholderBottle(p.slug, p.fullName),
+}));
 
 export function getPerfumeBySlug(slug: string): PerfumeRating | undefined {
   return PERFUMES.find((p) => p.slug === slug);
