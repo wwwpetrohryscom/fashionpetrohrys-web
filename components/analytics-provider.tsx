@@ -13,11 +13,22 @@ declare global {
     gtag?: (...args: unknown[]) => void;
     __fashionAreaGaLoaded?: boolean;
     __fashionAreaGaConfigured?: boolean;
+    __fashionAreaWebmasterIdLoaded?: boolean;
   }
 }
 
 const GA_MEASUREMENT_ID =
   process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-6490XY79Q4";
+
+const WEBMASTERID_SITE_ID =
+  process.env.NEXT_PUBLIC_WEBMASTERID_SITE_ID ?? "wm_0rvis3l1ed8e5uv3";
+
+const WEBMASTERID_ENDPOINT =
+  process.env.NEXT_PUBLIC_WEBMASTERID_ENDPOINT ??
+  "https://webmasterid-ingest-api.vercel.app/api/events";
+
+const WEBMASTERID_SCRIPT_SRC =
+  "https://webmasterid.com/tracker.iife.min.js";
 
 function ensureGtag() {
   window.dataLayer = window.dataLayer ?? [];
@@ -71,6 +82,26 @@ function configureGoogleAnalytics() {
   window.__fashionAreaGaConfigured = true;
 }
 
+function loadWebmasterId() {
+  if (
+    !WEBMASTERID_SITE_ID ||
+    !WEBMASTERID_ENDPOINT ||
+    window.__fashionAreaWebmasterIdLoaded
+  ) {
+    return;
+  }
+
+  const script = document.createElement("script");
+  script.async = true;
+  script.defer = true;
+  script.src = WEBMASTERID_SCRIPT_SRC;
+  script.dataset.wmid = WEBMASTERID_SITE_ID;
+  script.dataset.endpoint = WEBMASTERID_ENDPOINT;
+  document.head.appendChild(script);
+
+  window.__fashionAreaWebmasterIdLoaded = true;
+}
+
 export function AnalyticsProvider() {
   useEffect(() => {
     ensureGtag();
@@ -92,6 +123,7 @@ export function AnalyticsProvider() {
       if (consent.analytics) {
         loadGoogleAnalytics();
         configureGoogleAnalytics();
+        loadWebmasterId();
       }
     }
 

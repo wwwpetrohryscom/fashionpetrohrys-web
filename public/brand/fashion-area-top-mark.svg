@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 120 120"
+  role="img"
+  aria-label="Fashion Area Top"
+>
+  <title>Fashion Area Top</title>
+  <!-- Black FA wedge: outer triangle with a notched F + interior A -->
+  <path
+    fill="#0a0a0a"
+    d="M18 18 H82 L62 38 H44 V52 H72 L60 64 H44 V102 L26 102 V32 L18 18 Z"
+  />
+  <!-- Red T overlay: cap bar + stem -->
+  <path
+    fill="#e10600"
+    d="M58 30 H102 L92 44 H82 V102 L70 102 V44 L60 44 Z"
+  />
+</svg>
