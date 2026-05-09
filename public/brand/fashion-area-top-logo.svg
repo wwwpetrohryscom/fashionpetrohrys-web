@@ -1,0 +1,40 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 600 140"
+  role="img"
+  aria-label="Fashion Area Top"
+  font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+>
+  <title>Fashion Area Top</title>
+  <!-- Mark: black FA wedge + red T overlay -->
+  <g transform="translate(10 10)">
+    <path
+      fill="#0a0a0a"
+      d="M18 18 H82 L62 38 H44 V52 H72 L60 64 H44 V102 L26 102 V32 L18 18 Z"
+    />
+    <path
+      fill="#e10600"
+      d="M58 30 H102 L92 44 H82 V102 L70 102 V44 L60 44 Z"
+    />
+  </g>
+
+  <!-- Wordmark: FASHION AREA in black, TOP in red -->
+  <g transform="translate(160 92)">
+    <text
+      x="0"
+      y="0"
+      font-size="56"
+      font-weight="700"
+      letter-spacing="2"
+      fill="#0a0a0a"
+    >FASHION AREA</text>
+    <text
+      x="350"
+      y="0"
+      font-size="56"
+      font-weight="700"
+      letter-spacing="2"
+      fill="#e10600"
+    >TOP</text>
+  </g>
+</svg>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DEFAULT_LOCALE, LOCALES, localizePath, type Locale } from "@/lib/i18n";
 
 export const SITE_CONFIG = {
-  name: "Fashion Area",
+  name: "Fashion Area Top",
   url: "https://fashionarea.top",
   company: "HELPERG LLC",
   email: "info@helperg.com",
