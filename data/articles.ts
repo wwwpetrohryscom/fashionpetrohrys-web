@@ -1,3 +1,5 @@
+import { GUIDE_ARTICLE_LIST } from "@/data/guide-articles";
+
 export type ArticleCategory =
   | "system"
   | "guides"
@@ -12,6 +14,8 @@ export type Article = {
   category: ArticleCategory;
   href: string;
   readTime: string;
+  publishedAt: string;
+  updatedAt: string;
 };
 
 export const ARTICLES: Article[] = [
@@ -23,6 +27,8 @@ export const ARTICLES: Article[] = [
     category: "system",
     href: "/system/the-formality-ladder-explained",
     readTime: "9 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
   {
     slug: "capsule-wardrobe-for-men",
@@ -32,6 +38,8 @@ export const ARTICLES: Article[] = [
     category: "guides",
     href: "/guides/capsule-wardrobe-for-men",
     readTime: "6 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
   {
     slug: "how-to-dress-better",
@@ -41,7 +49,19 @@ export const ARTICLES: Article[] = [
     category: "guides",
     href: "/guides/how-to-dress-better",
     readTime: "5 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
+  ...GUIDE_ARTICLE_LIST.map((article) => ({
+    slug: article.slug,
+    title: article.title,
+    description: article.description,
+    category: "guides" as const,
+    href: `/guides/${article.slug}`,
+    readTime: article.readTime,
+    publishedAt: article.publishedAt,
+    updatedAt: article.updatedAt,
+  })),
   {
     slug: "simple-outfit-formulas",
     title: "Simple Outfit Formulas",
@@ -50,6 +70,8 @@ export const ARTICLES: Article[] = [
     category: "outfits",
     href: "/outfits/simple-outfit-formulas",
     readTime: "5 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
   {
     slug: "how-to-check-clothing-quality",
@@ -59,6 +81,8 @@ export const ARTICLES: Article[] = [
     category: "clothing",
     href: "/clothing/how-to-check-clothing-quality",
     readTime: "7 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
   {
     slug: "clothing-and-first-impressions",
@@ -68,6 +92,8 @@ export const ARTICLES: Article[] = [
     category: "psychology",
     href: "/psychology/clothing-and-first-impressions",
     readTime: "5 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
   {
     slug: "why-minimal-style-works",
@@ -77,6 +103,8 @@ export const ARTICLES: Article[] = [
     category: "psychology",
     href: "/psychology/why-minimal-style-works",
     readTime: "4 min read",
+    publishedAt: "2026-05-03",
+    updatedAt: "2026-05-03",
   },
 ];
 

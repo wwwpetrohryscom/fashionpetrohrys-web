@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
+import Script from "next/script";
+import { useEffect, useState } from "react";
 import {
   CONSENT_UPDATED_EVENT,
   readConsent,
@@ -13,7 +14,6 @@ declare global {
     gtag?: (...args: unknown[]) => void;
     __fashionAreaGaLoaded?: boolean;
     __fashionAreaGaConfigured?: boolean;
-    __fashionAreaWebmasterIdLoaded?: boolean;
   }
 }
 
@@ -82,27 +82,9 @@ function configureGoogleAnalytics() {
   window.__fashionAreaGaConfigured = true;
 }
 
-function loadWebmasterId() {
-  if (
-    !WEBMASTERID_SITE_ID ||
-    !WEBMASTERID_ENDPOINT ||
-    window.__fashionAreaWebmasterIdLoaded
-  ) {
-    return;
-  }
-
-  const script = document.createElement("script");
-  script.async = true;
-  script.defer = true;
-  script.src = WEBMASTERID_SCRIPT_SRC;
-  script.dataset.wmid = WEBMASTERID_SITE_ID;
-  script.dataset.endpoint = WEBMASTERID_ENDPOINT;
-  document.head.appendChild(script);
-
-  window.__fashionAreaWebmasterIdLoaded = true;
-}
-
 export function AnalyticsProvider() {
+  const [analyticsAllowed, setAnalyticsAllowed] = useState(false);
+
   useEffect(() => {
     ensureGtag();
     window.gtag?.("consent", "default", {
@@ -119,11 +101,11 @@ export function AnalyticsProvider() {
       }
 
       updateConsent(consent);
+      setAnalyticsAllowed(consent.analytics);
 
       if (consent.analytics) {
         loadGoogleAnalytics();
         configureGoogleAnalytics();
-        loadWebmasterId();
       }
     }
 
@@ -138,5 +120,17 @@ export function AnalyticsProvider() {
       window.removeEventListener(CONSENT_UPDATED_EVENT, handleConsentUpdate);
   }, []);
 
-  return null;
+  if (!analyticsAllowed) {
+    return null;
+  }
+
+  return (
+    <Script
+      id="webmasterid-tracker"
+      src={WEBMASTERID_SCRIPT_SRC}
+      strategy="afterInteractive"
+      data-wmid={WEBMASTERID_SITE_ID}
+      data-endpoint={WEBMASTERID_ENDPOINT}
+    />
+  );
 }

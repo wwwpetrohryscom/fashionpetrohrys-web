@@ -1,4 +1,4 @@
-# Fashion Area
+# Fashion Area Top
 
 Style Operating System.
 
@@ -34,7 +34,7 @@ app/                        # routes
 ├── [locale]/               # /en, /de, /fr, /es, /pt localized routes
 ├── globals.css             # Tailwind v4 + signal red token
 ├── robots.ts               # robots.txt
-└── sitemap.ts              # localized sitemap
+└── sitemap.xml/route.ts    # localized XML sitemap
 
 components/
 ├── site-header.tsx
@@ -70,7 +70,7 @@ messages/
 - `/en`, `/de`, `/fr`, `/es`, `/pt` — localized home
 - `/<locale>/method` — the 3-step method
 - `/<locale>/system` — the 4 dimensions of an outfit
-- `/<locale>/guides` — index + 2 articles
+- `/<locale>/guides` — index + style guide articles
 - `/<locale>/outfits` — examples + 1 article
 - `/<locale>/clothing` — index + 1 article
 - `/<locale>/psychology` — index + 2 articles

@@ -30,7 +30,7 @@
   "home": {
     "kicker": "The Style Operating System",
     "title": "Style is a system, not a guess.",
-    "description": "Fashion Area is not a trend feed. It is a system for making structured decisions about clothing: what to buy, what to wear, and why one outfit works while another does not.",
+    "description": "Fashion Area Top is not a trend feed. It is a system for making structured decisions about clothing: what to buy, what to wear, and why one outfit works while another does not.",
     "primaryCta": "Start with the Method",
     "secondaryCta": "See the System",
     "whereToStart": "Where to start",
@@ -56,7 +56,7 @@
     "rejectNonEssential": "Reject non-essential",
     "customize": "Customize",
     "modalTitle": "Privacy settings",
-    "modalBody": "Choose which optional cookies Fashion Area may use. You can change this later from the footer.",
+    "modalBody": "Choose which optional cookies Fashion Area Top may use. You can change this later from the footer.",
     "save": "Save settings",
     "cancel": "Cancel",
     "necessaryTitle": "Necessary",
@@ -70,9 +70,9 @@
   "legal": {
     "updated": "Updated",
     "privacyTitle": "Privacy Policy",
-    "privacyDescription": "How HELPERG LLC processes personal data for Fashion Area.",
+    "privacyDescription": "How HELPERG LLC processes personal data for Fashion Area Top.",
     "cookieTitle": "Cookie Policy",
-    "cookieDescription": "How Fashion Area uses necessary, analytics, and marketing cookies.",
+    "cookieDescription": "How Fashion Area Top uses necessary, analytics, and marketing cookies.",
     "company": "Controller: HELPERG LLC",
     "contact": "Contact: info@helperg.com"
   },
@@ -111,23 +111,23 @@
     },
     "perfumes": {
       "title": "Perfume Ratings and Fragrance Rankings",
-      "description": "FashionArea's editorial perfume rankings with scores for longevity, projection, versatility, uniqueness, value, notes, and clear verdicts."
+      "description": "Fashion Area Top's editorial perfume rankings with scores for longevity, projection, versatility, uniqueness, value, notes, and clear verdicts."
     },
     "perfumesTopOfTheTop": {
-      "title": "Top of the Top Perfumes: FashionArea Ranking",
-      "description": "The highest-rated fragrances in FashionArea's editorial ranking, scored by scent profile, performance, versatility, uniqueness, and value."
+      "title": "Top of the Top Perfumes: Fashion Area Top Ranking",
+      "description": "The highest-rated fragrances in Fashion Area Top's editorial ranking, scored by scent profile, performance, versatility, uniqueness, and value."
     },
     "perfumesTopOk": {
       "title": "Top OK Perfumes: Strong Fragrances with Limits",
-      "description": "Strong perfumes that perform well but sit below the top tier in FashionArea's editorial ranking due to value, originality, or versatility limits."
+      "description": "Strong perfumes that perform well but sit below the top tier in Fashion Area Top's editorial ranking due to value, originality, or versatility limits."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Perfumes",
       "title": "Perfume Ratings and Fragrance Rankings",
-      "intro": "FashionArea's editorial ranking, scored on scent profile, performance, versatility, uniqueness, and value. One editor, one rating per perfume — no aggregated user votes, no affiliate noise.",
-      "ratedBy": "Rated by FashionArea",
+      "intro": "Fashion Area Top's editorial ranking, scored on scent profile, performance, versatility, uniqueness, and value. One editor, one rating per perfume — no aggregated user votes, no affiliate noise.",
+      "ratedBy": "Rated by Fashion Area Top",
       "systemLink": "Use the same decision system for scent as for clothing: context, restraint, and repeatability.",
       "howWeRateTitle": "How we rate perfumes",
       "howWeRateBody": "Each perfume is scored 1–10 across longevity, projection, versatility, uniqueness, and value. The overall rating is an editorial judgement, not an average — it reflects how the fragrance behaves in real wear, not a marketing brief."
@@ -138,7 +138,7 @@
       "averageShort": "Average",
       "avoidShort": "Avoid",
       "topOfTheTopTitle": "Top of the Top Perfumes",
-      "topOfTheTopIntro": "The highest-rated fragrances in FashionArea's editorial ranking. These compositions combine identity, performance, and execution well enough to justify their tier across multiple dimensions.",
+      "topOfTheTopIntro": "The highest-rated fragrances in Fashion Area Top's editorial ranking. These compositions combine identity, performance, and execution well enough to justify their tier across multiple dimensions.",
       "topOkTitle": "Top OK Perfumes",
       "topOkIntro": "Strong fragrances that perform well, but sit below the top tier because of clear limitations in originality, value, projection, or context range.",
       "averageTitle": "Average Perfumes",
@@ -183,7 +183,7 @@
       "backToList": "All perfume reviews",
       "viewTier": "View tier",
       "review": "Review",
-      "ratingMethodology": "FashionArea editorial rating, 1–10 scale. Single-reviewer score, no aggregated user ratings."
+      "ratingMethodology": "Fashion Area Top editorial rating, 1–10 scale. Single-reviewer score, no aggregated user ratings."
     },
     "gender": {
       "men": "Men",
@@ -210,6 +210,26 @@
     "how-to-dress-better": {
       "title": "How to Dress Better",
       "description": "Three constraints that improve any outfit immediately. None of them require buying anything new."
+    },
+    "old-money-style-men": {
+      "title": "Old Money Style for Men: Practical Wardrobe Guide",
+      "description": "A practical guide to old money style for men, covering fit, fabrics, colors, key pieces, outfit formulas, and what to avoid."
+    },
+    "quiet-luxury-style": {
+      "title": "Quiet Luxury Style: Fit, Fabric, and Restraint",
+      "description": "Learn quiet luxury style through fabric quality, fit, color discipline, understated details, and practical outfit rules without logo-heavy dressing."
+    },
+    "how-to-build-personal-style": {
+      "title": "How to Build Personal Style Without Copying Trends",
+      "description": "A practical system for building personal style with lifestyle rules, silhouettes, color anchors, outfit formulas, and better wardrobe decisions."
+    },
+    "smart-casual-dress-code": {
+      "title": "Smart Casual Dress Code: Clear Outfit Rules",
+      "description": "A clear smart casual dress code guide with outfit formulas, formality rules, key pieces, and mistakes to avoid for men."
+    },
+    "how-to-match-colors-in-outfits": {
+      "title": "How to Match Colors in Outfits: Practical Guide",
+      "description": "A practical guide to matching outfit colors using neutrals, accents, contrast, temperature, and simple combinations that work."
     },
     "simple-outfit-formulas": {
       "title": "Simple Outfit Formulas",

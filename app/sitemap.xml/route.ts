@@ -3,7 +3,7 @@ import { PERFUMES } from "@/data/perfumes";
 import { LOCALES, localizePath, type Locale } from "@/lib/i18n";
 import { SITE_CONFIG } from "@/lib/seo";
 
-const LAST_MODIFIED = "2026-05-07T00:00:00.000Z";
+const LAST_MODIFIED = "2026-05-11T00:00:00.000Z";
 
 type SitemapEntry = {
   path: string;
@@ -30,6 +30,7 @@ const ARTICLE_ROUTES: SitemapEntry[] = ARTICLES.map((article) => ({
   path: article.href,
   changeFrequency: "monthly",
   priority: "0.7",
+  lastModified: new Date(article.updatedAt).toISOString(),
 }));
 
 const PERFUME_TIER_ROUTES: SitemapEntry[] = [
