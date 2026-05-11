@@ -49,6 +49,8 @@ export function articleSchema(input: {
   datePublished: string;
   dateModified: string;
 }) {
+  const organization = organizationSchema();
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -57,6 +59,7 @@ export function articleSchema(input: {
     url: `${SITE_CONFIG.url}${input.path}`,
     datePublished: input.datePublished,
     dateModified: input.dateModified,
-    publisher: organizationSchema(),
+    author: organization,
+    publisher: organization,
   };
 }

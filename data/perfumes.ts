@@ -110,12 +110,12 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Creed Aventus Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Creed Aventus review with FashionArea rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
+      "A clear Creed Aventus review with Fashion Area Top rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
     shortDescription:
       "Creed Aventus sits in the top tier because it still balances freshness, fruit, smoke, and masculine polish better than most designer-inspired alternatives.",
     review: {
       intro:
-        "Aventus is the fragrance most niche reference points circle back to. The reason it stays at the top of the FashionArea ranking is not nostalgia — it is that the structure still works: bright fruit on top, smoke through the heart, and a clean musky base that does not collapse into sweetness.",
+        "Aventus is the fragrance most niche reference points circle back to. The reason it stays at the top of the Fashion Area Top ranking is not nostalgia — it is that the structure still works: bright fruit on top, smoke through the heart, and a clean musky base that does not collapse into sweetness.",
       scentProfile:
         "Commonly associated with a pineapple-forward opening lifted by bergamot and a darker fruit accord. The heart leans into a smoked birch character with quiet floral support. The base reads clean rather than gourmand — soft musk, ambery warmth, and a faint mossy backbone that keeps it from reading sweet.",
       performance:
@@ -165,7 +165,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Roja Elysium Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Roja Elysium review with FashionArea rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
+      "A clear Roja Elysium review with Fashion Area Top rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
     shortDescription:
       "Roja Elysium is a polished fresh fragrance with a luxury feel, strong versatility, and enough brightness to work as a signature scent.",
     review: {
@@ -220,7 +220,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Nasomatto Black Afgano Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Black Afgano review with FashionArea rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
+      "A clear Black Afgano review with Fashion Area Top rating, longevity, projection, versatility, notes, best occasions, pros, cons, and verdict.",
     shortDescription:
       "Black Afgano is not versatile, but it earns its rank through density, darkness, projection, and a scent profile that feels deliberately uncompromising.",
     review: {
@@ -279,7 +279,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Ganymede Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Marc-Antoine Barrois Ganymede review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Marc-Antoine Barrois Ganymede review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Ganymede ranks high because it smells modern, mineral, metallic, elegant, and difficult to confuse with anything mainstream.",
     review: {
@@ -338,7 +338,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Clive Christian Hedonistic Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Clive Christian Hedonistic review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Clive Christian Hedonistic review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Hedonistic is dense, opulent, and unapologetically luxurious — a fragrance with strong performance and a clear emotional identity.",
     review: {
@@ -397,7 +397,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Baccarat Rouge 540 Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Baccarat Rouge 540 review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Baccarat Rouge 540 review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Baccarat Rouge 540 remains high in the ranking because of its airy sweetness, strong trail, and instantly recognisable structure.",
     review: {
@@ -456,7 +456,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Initio Oud for Greatness Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Oud for Greatness review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Oud for Greatness review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Oud for Greatness is powerful, direct, and built around a confident saffron-oud accord that performs far above average.",
     review: {
@@ -515,7 +515,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Louis Vuitton Imagination Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Louis Vuitton Imagination review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Louis Vuitton Imagination review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Louis Vuitton Imagination is one of the cleanest high-end fresh fragrances in the ranking, with excellent wearability and a refined tea-citrus profile.",
     review: {
@@ -570,7 +570,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "BVLGARI Le Gemme Tygar Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear BVLGARI Tygar review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear BVLGARI Tygar review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "BVLGARI Tygar earns its place through grapefruit brightness, clean woods, strong projection, and unusually high versatility for a luxury fresh scent.",
     review: {
@@ -625,7 +625,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Maison Crivelli Oud Maracujá Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Oud Maracujá review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Oud Maracujá review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Oud Maracujá ranks high because the passionfruit-oud contrast feels dramatic, loud, and memorable without becoming random.",
     review: {
@@ -688,7 +688,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Bleu de Chanel Parfum Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Bleu de Chanel Parfum review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Bleu de Chanel Parfum review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Bleu de Chanel Parfum is reliable, polished, and easy to wear, but it stays in Top OK because it is safer than it is surprising.",
     review: {
@@ -747,7 +747,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Dior Homme Intense Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Dior Homme Intense review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Dior Homme Intense review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Dior Homme Intense is a benchmark iris-led men's fragrance — refined, slightly powdery, and unusually elegant for its price tier.",
     review: {
@@ -806,7 +806,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Ex Nihilo Fleur Narcotique Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Fleur Narcotique review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Fleur Narcotique review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Fleur Narcotique is a polished fruity-floral with broad appeal and a clean modern character, held back from the top tier by value.",
     review: {
@@ -865,7 +865,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Kilian Good Girl Gone Bad Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Good Girl Gone Bad review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Good Girl Gone Bad review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Good Girl Gone Bad is a clean white-floral with confident character, held back from the top tier mostly by value.",
     review: {
@@ -924,7 +924,7 @@ const RAW_PERFUMES: PerfumeRating[] = [
     },
     metaTitle: "Chanel Platinum Égoïste Review: Rating, Notes, Performance",
     metaDescription:
-      "A clear Platinum Égoïste review with FashionArea rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
+      "A clear Platinum Égoïste review with Fashion Area Top rating, longevity, projection, versatility, notes, occasions, pros, cons, and verdict.",
     shortDescription:
       "Platinum Égoïste is a classic clean fougère — elegant, restrained, and unusually wearable for a fragrance with this much history.",
     review: {

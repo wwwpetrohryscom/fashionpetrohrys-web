@@ -30,7 +30,7 @@
   "home": {
     "kicker": "Das Stil-Betriebssystem",
     "title": "Stil ist ein System, kein Ratespiel.",
-    "description": "Fashion Area ist kein Trend-Feed. Es ist ein System für strukturierte Entscheidungen über Kleidung: was du kaufst, was du trägst und warum ein Outfit funktioniert.",
+    "description": "Fashion Area Top ist kein Trend-Feed. Es ist ein System für strukturierte Entscheidungen über Kleidung: was du kaufst, was du trägst und warum ein Outfit funktioniert.",
     "primaryCta": "Mit der Methode starten",
     "secondaryCta": "Das System ansehen",
     "whereToStart": "Wo anfangen",
@@ -56,7 +56,7 @@
     "rejectNonEssential": "Nicht notwendige ablehnen",
     "customize": "Anpassen",
     "modalTitle": "Privatsphäre-Einstellungen",
-    "modalBody": "Wähle, welche optionalen Cookies Fashion Area verwenden darf. Du kannst dies später im Footer ändern.",
+    "modalBody": "Wähle, welche optionalen Cookies Fashion Area Top verwenden darf. Du kannst dies später im Footer ändern.",
     "save": "Einstellungen speichern",
     "cancel": "Abbrechen",
     "necessaryTitle": "Notwendig",
@@ -70,9 +70,9 @@
   "legal": {
     "updated": "Aktualisiert",
     "privacyTitle": "Datenschutzerklärung",
-    "privacyDescription": "Wie HELPERG LLC personenbezogene Daten für Fashion Area verarbeitet.",
+    "privacyDescription": "Wie HELPERG LLC personenbezogene Daten für Fashion Area Top verarbeitet.",
     "cookieTitle": "Cookie-Richtlinie",
-    "cookieDescription": "Wie Fashion Area notwendige, Analyse- und Marketing-Cookies verwendet.",
+    "cookieDescription": "Wie Fashion Area Top notwendige, Analyse- und Marketing-Cookies verwendet.",
     "company": "Verantwortlicher: HELPERG LLC",
     "contact": "Kontakt: info@helperg.com"
   },
@@ -111,23 +111,23 @@
     },
     "perfumes": {
       "title": "Parfum-Bewertungen und Duft-Rankings",
-      "description": "Redaktionelle Parfum-Rankings von FashionArea mit Bewertungen für Haltbarkeit, Sillage, Vielseitigkeit, Einzigartigkeit, Preis-Leistung, Duftnoten und klaren Empfehlungen."
+      "description": "Redaktionelle Parfum-Rankings von Fashion Area Top mit Bewertungen für Haltbarkeit, Sillage, Vielseitigkeit, Einzigartigkeit, Preis-Leistung, Duftnoten und klaren Empfehlungen."
     },
     "perfumesTopOfTheTop": {
-      "title": "Top of the Top Perfums: FashionArea-Ranking",
-      "description": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von FashionArea, beurteilt nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung."
+      "title": "Top of the Top Perfums: Fashion Area Top-Ranking",
+      "description": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von Fashion Area Top, beurteilt nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung."
     },
     "perfumesTopOk": {
       "title": "Top OK Perfums: Starke Düfte mit Grenzen",
-      "description": "Starke Parfums mit guter Leistung, die im redaktionellen FashionArea-Ranking unterhalb der Spitze bleiben — wegen Preis-Leistung, Originalität oder Vielseitigkeit."
+      "description": "Starke Parfums mit guter Leistung, die im redaktionellen Fashion Area Top-Ranking unterhalb der Spitze bleiben — wegen Preis-Leistung, Originalität oder Vielseitigkeit."
     }
   },
   "perfumes": {
     "category": {
       "kicker": "Parfums",
       "title": "Parfum-Bewertungen und Duft-Rankings",
-      "intro": "FashionArea's redaktionelles Ranking, bewertet nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung. Ein Redakteur, eine Bewertung pro Parfum — keine aggregierten Nutzerstimmen, kein Affiliate-Lärm.",
-      "ratedBy": "Bewertet von FashionArea",
+      "intro": "Fashion Area Top's redaktionelles Ranking, bewertet nach Duftprofil, Leistung, Vielseitigkeit, Einzigartigkeit und Preis-Leistung. Ein Redakteur, eine Bewertung pro Parfum — keine aggregierten Nutzerstimmen, kein Affiliate-Lärm.",
+      "ratedBy": "Bewertet von Fashion Area Top",
       "systemLink": "Nutze für Duft dasselbe Entscheidungssystem wie für Kleidung: Kontext, Zurückhaltung, Wiederholbarkeit.",
       "howWeRateTitle": "Wie wir Parfums bewerten",
       "howWeRateBody": "Jedes Parfum wird auf einer Skala von 1–10 in Haltbarkeit, Sillage, Vielseitigkeit, Einzigartigkeit und Preis-Leistung bewertet. Die Gesamtnote ist ein redaktionelles Urteil, kein Durchschnitt — sie spiegelt das tatsächliche Tragverhalten wider, nicht ein Marketing-Briefing."
@@ -138,7 +138,7 @@
       "averageShort": "Durchschnitt",
       "avoidShort": "Meiden",
       "topOfTheTopTitle": "Top of the Top Perfums",
-      "topOfTheTopIntro": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von FashionArea. Diese Kompositionen verbinden Identität, Leistung und Ausführung über mehrere Dimensionen hinweg überzeugend.",
+      "topOfTheTopIntro": "Die am höchsten bewerteten Düfte im redaktionellen Ranking von Fashion Area Top. Diese Kompositionen verbinden Identität, Leistung und Ausführung über mehrere Dimensionen hinweg überzeugend.",
       "topOkTitle": "Top OK Perfums",
       "topOkIntro": "Starke Düfte, die gut performen, aber wegen klarer Einschränkungen bei Originalität, Preis-Leistung, Sillage oder Kontextspielraum unterhalb der Spitze liegen.",
       "averageTitle": "Durchschnittliche Perfums",
@@ -183,7 +183,7 @@
       "backToList": "Alle Parfum-Reviews",
       "viewTier": "Tier ansehen",
       "review": "Review",
-      "ratingMethodology": "Redaktionelle FashionArea-Bewertung, Skala 1–10. Einzelne Redakteursbewertung, keine aggregierten Nutzerbewertungen."
+      "ratingMethodology": "Redaktionelle Fashion Area Top-Bewertung, Skala 1–10. Einzelne Redakteursbewertung, keine aggregierten Nutzerbewertungen."
     },
     "gender": {
       "men": "Herren",
@@ -210,6 +210,26 @@
     "how-to-dress-better": {
       "title": "Wie man sich besser kleidet",
       "description": "Drei Constraints, die jedes Outfit sofort verbessern. Ohne neue Kleidung zu kaufen."
+    },
+    "old-money-style-men": {
+      "title": "Old Money Style für Männer: Praktischer Wardrobe-Guide",
+      "description": "Ein praktischer Guide zu Old Money Style für Männer, mit Passform, Stoffen, Farben, Schlüsselstücken, Outfit-Formeln und Fehlern, die man vermeiden sollte."
+    },
+    "quiet-luxury-style": {
+      "title": "Quiet Luxury Style: Passform, Stoff und Zurückhaltung",
+      "description": "Lerne Quiet Luxury Style über Stoffqualität, Passform, Farbdiziplin, dezente Details und praktische Outfit-Regeln ohne logo-lastiges Dressing."
+    },
+    "how-to-build-personal-style": {
+      "title": "Personal Style aufbauen, ohne Trends zu kopieren",
+      "description": "Ein praktisches System für Personal Style mit Lifestyle-Regeln, Silhouetten, Farbankern, Outfit-Formeln und besseren Garderobenentscheidungen."
+    },
+    "smart-casual-dress-code": {
+      "title": "Smart Casual Dress Code: Klare Outfit-Regeln",
+      "description": "Ein klarer Smart-Casual-Guide mit Outfit-Formeln, Formalitätsregeln, Schlüsselstücken und Fehlern, die Männer vermeiden sollten."
+    },
+    "how-to-match-colors-in-outfits": {
+      "title": "Farben in Outfits kombinieren: Praktischer Guide",
+      "description": "Ein praktischer Guide zum Kombinieren von Outfit-Farben mit Neutrals, Akzenten, Kontrast, Temperatur und einfachen Kombinationen."
     },
     "simple-outfit-formulas": {
       "title": "Einfache Outfit-Formeln",
