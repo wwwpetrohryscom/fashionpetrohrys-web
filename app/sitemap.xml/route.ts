@@ -1,9 +1,9 @@
-import { ARTICLES } from "@/data/articles";
+import { ARTICLES, type ArticleCategory } from "@/data/articles";
 import { PERFUMES } from "@/data/perfumes";
 import { LOCALES, localizePath, type Locale } from "@/lib/i18n";
 import { SITE_CONFIG } from "@/lib/seo";
 
-const LAST_MODIFIED = "2026-05-11T00:00:00.000Z";
+const LAST_MODIFIED = "2026-05-13T00:00:00.000Z";
 
 type SitemapEntry = {
   path: string;
@@ -12,25 +12,60 @@ type SitemapEntry = {
   lastModified?: string;
 };
 
+function toIsoDate(date: string): string {
+  return new Date(date).toISOString();
+}
+
+function latestArticleUpdate(category: ArticleCategory): string | undefined {
+  const updates = ARTICLES.filter((a) => a.category === category).map(
+    (a) => a.updatedAt,
+  );
+  if (updates.length === 0) return undefined;
+  updates.sort();
+  return toIsoDate(updates[updates.length - 1]);
+}
+
+function latestPerfumeUpdate(): string | undefined {
+  const updates = PERFUMES.map((p) => p.updatedAt);
+  if (updates.length === 0) return undefined;
+  updates.sort();
+  return toIsoDate(updates[updates.length - 1]);
+}
+
+const CATEGORY_LASTMOD: Record<string, string | undefined> = {
+  "/method": latestArticleUpdate("system"),
+  "/system": latestArticleUpdate("system"),
+  "/guides": latestArticleUpdate("guides"),
+  "/outfits": latestArticleUpdate("outfits"),
+  "/clothing": latestArticleUpdate("clothing"),
+  "/psychology": latestArticleUpdate("psychology"),
+  "/perfumes": latestPerfumeUpdate(),
+};
+
 const HOME_ROUTES: SitemapEntry[] = [
   { path: "/", changeFrequency: "weekly", priority: "1.0" },
 ];
 
-const CATEGORY_ROUTES: SitemapEntry[] = [
-  { path: "/method", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/system", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/guides", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/outfits", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/clothing", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/psychology", changeFrequency: "monthly", priority: "0.8" },
-  { path: "/perfumes", changeFrequency: "monthly", priority: "0.8" },
-];
+const CATEGORY_ROUTES: SitemapEntry[] = (
+  [
+    { path: "/method", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/system", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/guides", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/outfits", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/clothing", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/psychology", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/perfumes", changeFrequency: "monthly", priority: "0.8" },
+  ] as SitemapEntry[]
+).map((entry) => ({
+  ...entry,
+  lastModified: CATEGORY_LASTMOD[entry.path] ?? entry.lastModified,
+}));
 
 const ARTICLE_ROUTES: SitemapEntry[] = ARTICLES.map((article) => ({
   path: article.href,
   changeFrequency: "monthly",
   priority: "0.7",
-  lastModified: new Date(article.updatedAt).toISOString(),
+  lastModified: toIsoDate(article.updatedAt),
 }));
 
 const PERFUME_TIER_ROUTES: SitemapEntry[] = [
@@ -50,7 +85,7 @@ const PERFUME_ROUTES: SitemapEntry[] = PERFUMES.map((perfume) => ({
   path: `/perfumes/${perfume.slug}`,
   changeFrequency: "monthly",
   priority: "0.7",
-  lastModified: new Date(perfume.updatedAt).toISOString(),
+  lastModified: toIsoDate(perfume.updatedAt),
 }));
 
 const SHOP_ROUTES: SitemapEntry[] = [

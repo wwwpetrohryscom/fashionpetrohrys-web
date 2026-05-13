@@ -3,7 +3,10 @@ export type GuideArticleSlug =
   | "quiet-luxury-style"
   | "how-to-build-personal-style"
   | "smart-casual-dress-code"
-  | "how-to-match-colors-in-outfits";
+  | "how-to-match-colors-in-outfits"
+  | "business-casual-men"
+  | "cocktail-attire-men"
+  | "first-date-outfit-men";
 
 export type GuideArticleLink = {
   href: string;
@@ -505,6 +508,312 @@ export const GUIDE_ARTICLES: Record<GuideArticleSlug, GuideArticle> = {
           "Use white, grey, or denim as a bridge when temperatures clash.",
           "Decide whether the context needs high or low contrast.",
           "Avoid pieces that do not combine with at least three existing outfits.",
+        ],
+      },
+    ],
+  },
+  "business-casual-men": {
+    slug: "business-casual-men",
+    title: "Business Casual for Men",
+    metaTitle: "Business Casual for Men: Clear Office Style Rules",
+    description:
+      "A practical business casual guide for men with formality rules, outfit formulas, key pieces, shoe choices, and office mistakes to avoid.",
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    readTime: "9 min read",
+    intro: [
+      "Business casual fails most often not because someone broke a rule, but because nobody agreed on the rule in the first place. The phrase covers everything from a polo with chinos to a soft blazer over wool trousers. To make it work day after day, you need to treat business casual as a narrow band on the formality ladder rather than a vague invitation to dress nicely.",
+      "The simple working definition: business casual is professional clothing minus the tie and minus the matching suit. The structure should still be office-grade. The shoes, trousers, and shirt should still look chosen. The casualness is in the absence of formal markers, not in the addition of casual ones.",
+    ],
+    internalLinks: [
+      {
+        href: "/system/the-formality-ladder-explained",
+        label: "Formality ladder",
+        description:
+          "Use levels 3-4 of the ladder as the working range for business casual.",
+      },
+      {
+        href: "/clothing/how-to-check-clothing-quality",
+        label: "Clothing quality",
+        description:
+          "Business casual exposes thin fabrics and cheap construction fast.",
+      },
+      {
+        href: "/outfits/simple-outfit-formulas",
+        label: "Outfit formulas",
+        description: "Convert business casual into a small set of repeatable slots.",
+      },
+      {
+        href: "/guides/smart-casual-dress-code",
+        label: "Smart casual",
+        description:
+          "Compare business casual to its more relaxed neighbor on the ladder.",
+      },
+    ],
+    sections: [
+      {
+        title: "What business casual actually means",
+        body: [
+          "Business casual sits between a suit and a clean weekend outfit. The reliable read is this: clothing that would be appropriate in a meeting with a senior colleague, minus the tie. That means a collar most days, structured trousers, and shoes that look like office shoes. It does not mean a polo and jeans, even when the office allows them.",
+          "The phrase varies by industry. In law and finance, business casual still leans toward jacket-friendly outfits. In tech and creative work, the same label often allows a clean knit and dark denim. Read your office before applying any external definition. If senior people consistently wear oxford shirts and chinos, that is the baseline.",
+        ],
+      },
+      {
+        title: "The formality range",
+        body: [
+          "Business casual works in a narrow band around formality levels 3 to 4. Below that you are in smart casual or full casual. Above that you are in business formal. Inside this band, the goal is to keep every visible piece within one level of every other piece.",
+          "A useful test is the ±1 rule. If your shoes are level 4 derbies and your trousers are level 4 wool, your shirt can be level 4 oxford or level 3 fine knit. A level 2 hoodie breaks the outfit. A level 5 silk tie also breaks it, just in the opposite direction. Business casual is calibrated, not just casual.",
+        ],
+      },
+      {
+        title: "Core pieces",
+        body: [
+          "The trousers do most of the work. Wool trousers in mid grey or navy are the safest anchor. Clean chinos in stone, olive, or navy are the next layer. Dark, straight-leg denim works only if your office accepts it; even then, raw or rinsed denim reads better than washed.",
+          "For shirts, oxford cloth button-downs in white, light blue, and pale pink cover most situations. Add fine merino crewnecks or polos in navy, charcoal, and cream for the days you skip a jacket. Avoid heavy graphics, loud patterns, and anything sheer enough to show what is underneath.",
+          "Jackets are optional but useful. A soft, unstructured navy or grey blazer raises the outfit when needed and stays comfortable in normal office temperatures. Avoid jackets with shiny buttons, contrast lapels, or aggressive padding; those read either formal or costume, not business casual.",
+        ],
+      },
+      {
+        title: "Outfit formulas",
+        body: [
+          "Formula one: light blue oxford shirt, grey wool trousers, brown leather loafers. This is the cleanest baseline. It works in nine industries out of ten and survives most internal meetings without recalibration.",
+          "Formula two: white oxford, navy chinos, derbies. Slightly more relaxed because of the chinos. Works well for client coffees, lunch meetings, and days that mix the office with a dinner afterward.",
+          "Formula three: fine merino crewneck, oxford collar showing at the neck, wool trousers, suede loafers. The knit replaces the jacket without dropping the formality, and the collar prevents the outfit from sliding into casual.",
+          "Formula four: soft navy blazer, plain shirt, chinos, brown derbies. This is the most flexible formula because the jacket adds one level of formality when you need it and can be hung over a chair when you do not.",
+        ],
+      },
+      {
+        title: "Shoes and accessories",
+        body: [
+          "Shoes are the fastest way to break business casual. Loafers, derbies, and clean leather sneakers are the working set. Athletic running shoes, distressed boots, and shiny patent dress shoes belong to other dress codes. Keep them out of the rotation for office days.",
+          "Belts should match the leather family of the shoe. A brown belt with brown shoes is the default. Black belt with black shoes works in stricter offices. Mixing brown shoes with a black belt almost always looks like an accident, even when the rest of the outfit is correct.",
+          "Watches and bags should fit the formality range. A leather strap watch under the cuff is invisible until needed. A bag in canvas or leather without large logos is fine. Athletic backpacks under business casual outfits are the most common mistake and the easiest to fix.",
+        ],
+      },
+      {
+        title: "Office mistakes to avoid",
+        body: [
+          "Do not use a blazer to upgrade a casual base. A jacket over a graphic T-shirt, washed jeans, and athletic sneakers makes the mismatch louder, not smaller. Either remove the jacket and stay casual, or replace the base with collared shirt, wool trousers, and leather shoes.",
+          "Do not over-style accessories. A pocket square, contrast laces, a printed scarf, and a statement watch in the same outfit fight each other. Pick one accent and let it carry. Business casual rewards subtraction more than addition.",
+          "Do not let the shoes drift down the ladder. As shoes age, the read of the outfit drops with them. Scuffed loafers, salt-stained boots, and faded sneakers undo otherwise correct outfits. Replace, recondition, or rotate shoes before they pull the rest of the wardrobe down.",
+        ],
+      },
+      {
+        title: "Business casual checklist",
+        body: [
+          "Run this checklist before you leave the house. It catches the most common business casual failures while there is still time to fix them.",
+        ],
+        checklist: [
+          "The trousers are wool, clean chinos, or dark structured denim.",
+          "The shirt has a collar, or the knit is fine enough to substitute for one.",
+          "The shoes are loafers, derbies, or clean leather sneakers, not athletic shoes.",
+          "Belt and shoe leather are in the same color family.",
+          "No part of the outfit is more than one level above or below the rest.",
+          "Nothing is visibly worn, stained, or stretched out of shape.",
+        ],
+      },
+    ],
+  },
+  "cocktail-attire-men": {
+    slug: "cocktail-attire-men",
+    title: "Cocktail Attire for Men",
+    metaTitle: "Cocktail Attire for Men: What to Wear",
+    description:
+      "A clear cocktail attire guide for men covering suits, jackets, shirts, shoes, colors, fabrics, event examples, and what not to wear.",
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    readTime: "9 min read",
+    intro: [
+      "Cocktail attire is the dress code most often misread in either direction. Some men show up in a full tuxedo and outrank the host. Others show up in business casual and feel underdressed once the room fills. The clean version sits between business and black tie, and the structure of the outfit is what holds it there.",
+      "The simple frame: a dark suit or a serious jacket-and-trouser combination, a clean shirt with or without a tie, and leather shoes that match the formality of the rest. Cocktail attire is about evening composure, not creative experimentation. It rewards restraint over decoration.",
+    ],
+    internalLinks: [
+      {
+        href: "/system",
+        label: "The System",
+        description:
+          "Use formality, silhouette, color, and layer to keep the outfit coherent.",
+      },
+      {
+        href: "/system/the-formality-ladder-explained",
+        label: "Formality ladder",
+        description:
+          "Cocktail attire sits at level 5 — close to black tie but not equal to it.",
+      },
+      {
+        href: "/guides/how-to-match-colors-in-outfits",
+        label: "Color matching",
+        description:
+          "Evening palettes lean dark and low-contrast; the same color rules apply.",
+      },
+      {
+        href: "/clothing/how-to-check-clothing-quality",
+        label: "Clothing quality",
+        description:
+          "Tailoring weaknesses are most visible under cocktail-event lighting.",
+      },
+    ],
+    sections: [
+      {
+        title: "What cocktail attire means",
+        body: [
+          "Cocktail attire is an evening dress code that asks for tailoring without the formality of black tie. A dark suit is the default answer. A serious jacket and trouser combination can work as long as both pieces are evening-weight and the colors hold together. Daywear cues like khaki, raw denim, and casual knits do not belong.",
+          "Read the invitation. If the host says cocktail, treat it as a dress-up event with adult composure. If the host says cocktail-casual, the dress can soften slightly: lose the tie, use a knit, keep the jacket. If the host says cocktail-formal, treat it as one step below black tie and lean toward dark suiting.",
+        ],
+      },
+      {
+        title: "Suit and jacket choices",
+        body: [
+          "The single most reliable cocktail outfit is a dark navy or charcoal two-piece suit in a clean wool. Slim but not skinny, single-breasted, two buttons, with a notch lapel. Anything more aggressive — peak lapels, double-breasted, sharkskin — leans toward black tie and may overshoot the room.",
+          "When a full suit feels heavy, a dark jacket with matching trousers works. Navy hopsack jacket with charcoal flannel trousers is a classic answer. Avoid summer-weight cotton suits and light colors unless the event is explicitly outdoors and daytime; for evening cocktail, fabric should look serious.",
+          "Avoid creative jackets for cocktail. Velvet, burgundy, and patterned tweed jackets can read either masterful or costume depending on the room, and the failure mode for cocktail attire is loud, not quiet. If you are unsure, choose a plain dark jacket and let the shirt or pocket square do the work.",
+        ],
+      },
+      {
+        title: "Shirt and shoe rules",
+        body: [
+          "Shirts should be plain. White is always correct. Pale blue and pale pink work when the rest of the outfit is unambiguous. Avoid stripes, prints, and contrast collars. A spread or semi-spread collar holds a tie cleanly and looks balanced without one.",
+          "Ties are optional. A dark silk tie raises the formality and is welcome at cocktail-formal events. A knit tie softens the outfit slightly. No tie also works if the shirt collar holds its shape without one. Bow ties belong to black tie; bring them only when explicitly invited.",
+          "Shoes should be plain, polished, and dark. Oxfords are the safest answer. Loafers work in less formal cocktail settings. Avoid square-toed dress shoes, suede in low-light evening events, and anything with chunky soles or heavy branding. Socks should be dark and reach mid-calf.",
+        ],
+      },
+      {
+        title: "Color and fabric",
+        body: [
+          "Cocktail palettes are dark and quiet. Navy, charcoal, deep grey, and black are the working anchors. White shirt. Black or dark brown shoes. A pocket square in white linen or muted silk is the only color allowed to play, and even then it should not dominate.",
+          "Fabric matters more than the eye notices. Wool with a slight sheen reads evening; matte cotton suiting often reads daytime. Avoid linen for cocktail unless the event is summer-outdoor and the invitation is explicitly relaxed. Synthetic blends shine wrong under low light and reveal themselves quickly.",
+        ],
+      },
+      {
+        title: "What not to wear",
+        body: [
+          "Do not wear a tuxedo. Cocktail is not black tie. Showing up in a tux outranks the host and can read as if you misread the invitation. The exception is when the host explicitly upgrades the dress code mid-message.",
+          "Do not wear sneakers, even clean ones. Cocktail is an evening dress code with formal expectations. Sneakers compress the formality back into daywear regardless of how good the jacket looks.",
+          "Do not wear bright colors as anchors. A red jacket, an emerald shirt, or pastel trousers can work for daywear or summer parties but rarely for evening cocktail. If you want a color note, keep it small — pocket square, tie pattern, or sock — and make sure the rest of the outfit stays dark.",
+        ],
+      },
+      {
+        title: "Event-specific examples",
+        body: [
+          "Office holiday party: navy two-piece suit, white shirt, dark silk tie, black oxfords. Add a white linen pocket square if you want a single restrained accent. Skip the tie if the office is on the more relaxed side and senior colleagues are doing the same.",
+          "Wedding cocktail hour before a black tie ceremony: dark suit at minimum. Charcoal works. Some men wear black; in most contexts this is acceptable for an evening event. Avoid trying to compete visually with the wedding party; cocktail attire here is supportive, not central.",
+          "Gallery opening or restaurant launch: dark suit or jacket-and-trouser combination, plain shirt, no tie if the room is creative-leaning. A pocket square or a quiet pattern in the tie is the only place to assert personality. Shoes still polished, still dark.",
+        ],
+      },
+      {
+        title: "Cocktail attire checklist",
+        body: [
+          "Use this check before leaving for any event with cocktail in the dress code. It catches the most frequent failures while the outfit can still be adjusted.",
+        ],
+        checklist: [
+          "The suit or jacket is dark wool, not daytime cotton or linen.",
+          "The shirt is plain and a clean white, blue, or pink.",
+          "The shoes are dark, polished oxfords or loafers, not sneakers.",
+          "The tie, if worn, is dark silk or knit — not a bow tie.",
+          "No single piece is shouting; the outfit reads as one composition.",
+          "The whole outfit lands at the cocktail level, not black tie or business casual.",
+        ],
+      },
+    ],
+  },
+  "first-date-outfit-men": {
+    slug: "first-date-outfit-men",
+    title: "First Date Outfit Guide for Men",
+    metaTitle: "First Date Outfit Guide for Men: Clear Style Rules",
+    description:
+      "A practical first date outfit guide for men with venue-based formulas, grooming rules, fragrance restraint, and mistakes to avoid.",
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    readTime: "9 min read",
+    intro: [
+      "A first date outfit has one job: do not become the topic. Anything that pulls attention away from the conversation is working against you. That includes both ends of the spectrum — a sloppy outfit that looks like you did not try, and an over-styled outfit that signals you tried too hard. The middle is the goal.",
+      "The clean version of a first date outfit is calibrated to the venue, comfortable for the duration, and built from pieces you already wear well. It should look like a normal evening for you, not a costume. The outfit you would wear to meet a friend for the same kind of dinner is usually within one swap of the right answer.",
+    ],
+    internalLinks: [
+      {
+        href: "/outfits/simple-outfit-formulas",
+        label: "Outfit formulas",
+        description:
+          "Use a small set of repeatable formulas instead of inventing a new outfit.",
+      },
+      {
+        href: "/guides/smart-casual-dress-code",
+        label: "Smart casual",
+        description: "Most first dates land inside the smart casual range.",
+      },
+      {
+        href: "/perfumes",
+        label: "Fragrance ratings",
+        description:
+          "Pick a quiet, well-rated scent rather than the loudest bottle on the shelf.",
+      },
+      {
+        href: "/method",
+        label: "The Method",
+        description: "Apply the same wardrobe method here as any other context.",
+      },
+    ],
+    sections: [
+      {
+        title: "What a first date outfit should do",
+        body: [
+          "A first date outfit should communicate composure without effort. The other person should remember the conversation, not the jacket. Composure is built from fit, cleanliness, and a small set of well-chosen pieces. None of that requires money or a new wardrobe.",
+          "It should also keep you comfortable for two to three hours. A stiff new shirt, painful new shoes, or an over-warm sweater can pull your attention away from the conversation and into your own body. The outfit should be familiar enough that you do not have to think about it.",
+        ],
+      },
+      {
+        title: "Match the venue",
+        body: [
+          "The venue sets the formality range. A casual coffee in the afternoon does not need a jacket. A nice dinner in the evening does not work in a hoodie. Walk through the venue website, read recent photos, or check what the staff wear. Your outfit should sit at the same level as the room.",
+          "If the venue is unclear, ask. A short message like 'how nicely should I dress for this place' is direct and tells the other person you are thinking about it without making it the centerpiece. Vague venues are how first date outfits go wrong most often.",
+          "When in doubt, lean smart casual. Smart casual is forgiven in almost every venue from neighborhood bars to mid-range restaurants. Business casual works for upscale dinner. Full casual works for daytime coffee and outdoor walks. Skip dress codes above business casual unless the venue truly demands it.",
+        ],
+      },
+      {
+        title: "Keep one clear focal point",
+        body: [
+          "An effective first date outfit has one piece that does the work and several pieces that quietly support it. The focal point can be the shoes, the jacket, the knit, or the shirt color. It should not be all four at once.",
+          "Examples of a focal point that works: clean suede chukka boots; a soft navy overshirt over a plain T-shirt; a clean oxford in a pale color that flatters your complexion; a fine merino knit in a flattering tone. The rest of the outfit should sit beneath that piece in volume and color.",
+          "Avoid stacking competing focal points. A graphic T-shirt, a printed jacket, and patterned trousers will all fight for attention. Outfits with one strong note and three quiet ones read confident; outfits with four strong notes read anxious.",
+        ],
+      },
+      {
+        title: "Outfit formulas",
+        body: [
+          "Coffee or daytime walk: clean denim or chinos, plain T-shirt or fine knit, suede sneakers or chukka boots, light jacket if the weather needs one. The shoes can be the focal point if the rest is plain. Aim for clean, fitted, and recently laundered.",
+          "Casual dinner: dark straight denim or chinos, oxford shirt or merino crewneck, loafers or clean leather sneakers. The shirt color is usually the strongest signal. A pale blue or white oxford reads composed without trying.",
+          "Mid-range dinner or evening drinks: wool trousers or dark chinos, oxford shirt, loafers or derbies, optional soft blazer or overshirt if the room is on the cooler side. Shirt and trouser should sit close in formality.",
+          "Upscale dinner or evening event: dark wool trousers, oxford shirt or fine knit, leather loafers or derbies, soft blazer. This is the upper bound for most first dates. Anything more is usually overdressing the venue.",
+        ],
+      },
+      {
+        title: "Grooming and fragrance",
+        body: [
+          "Grooming sits underneath the outfit and affects the read more than people expect. A trim or beard touchup in the week before, clean nails, fresh haircut, brushed teeth, and a fresh shave or maintained beard line do most of the work. The outfit cannot rescue a tired grooming layer.",
+          "Use fragrance with restraint. The right amount is when the person sitting next to you might notice it, but the person at the next table does not. Two sprays at the upper chest is the working dose for most fragrances. Three is the upper limit. Anything more turns into a presence in the room rather than a personal scent.",
+          "Pick something that suits the season and venue. A fresh citrus or clean aquatic works for daytime and warm weather; a warmer wood or quiet amber works for cooler evening venues. Strong oud, heavy gourmand, or sharp niche pieces can dominate a first date and make the rest of the outfit irrelevant.",
+        ],
+      },
+      {
+        title: "What to avoid",
+        body: [
+          "Avoid anything new and unworn. New shoes blister, new shirts feel stiff, new jackets pinch. A first date is not the moment to test a piece. Use clothing that has been broken in over at least three previous wears.",
+          "Avoid logos, graphics, and slogans. Even the friendliest design becomes a conversation handle that pulls the focus to your outfit. If a piece would survive a job interview at a tolerant company, it usually survives a first date too.",
+          "Avoid pretending to be someone you are not. If you do not wear a suit in normal life, do not wear one to a first date unless the venue requires it. Borrowed style is visible and reads less confident than a familiar outfit in good condition.",
+        ],
+      },
+      {
+        title: "First date checklist",
+        body: [
+          "Run this check before leaving the house. It catches the most common first date outfit failures while there is still time to swap a piece.",
+        ],
+        checklist: [
+          "The outfit matches the venue's formality, not one or two levels above it.",
+          "One piece is the clear focal point and the others are quiet.",
+          "Every piece has been worn at least three times before.",
+          "Shoes are clean and recently maintained.",
+          "Fragrance is two sprays at chest height, no more.",
+          "Nothing in the outfit invites a question you do not want to spend time answering.",
         ],
       },
     ],

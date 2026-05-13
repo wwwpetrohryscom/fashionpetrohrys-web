@@ -1,5 +1,6 @@
 {
   "common": {
+    "home": "Startseite",
     "brand": "Fashion Area Top",
     "tagline": "Das Stil-Betriebssystem",
     "allRightsReserved": "Alle Rechte vorbehalten.",
@@ -230,6 +231,18 @@
     "how-to-match-colors-in-outfits": {
       "title": "Farben in Outfits kombinieren: Praktischer Guide",
       "description": "Ein praktischer Guide zum Kombinieren von Outfit-Farben mit Neutrals, Akzenten, Kontrast, Temperatur und einfachen Kombinationen."
+    },
+    "business-casual-men": {
+      "title": "Business Casual for Men: Clear Office Style Rules",
+      "description": "A practical business casual guide for men with formality rules, outfit formulas, key pieces, shoe choices, and office mistakes to avoid."
+    },
+    "cocktail-attire-men": {
+      "title": "Cocktail Attire for Men: What to Wear",
+      "description": "A clear cocktail attire guide for men covering suits, jackets, shirts, shoes, colors, fabrics, event examples, and what not to wear."
+    },
+    "first-date-outfit-men": {
+      "title": "First Date Outfit Guide for Men: Clear Style Rules",
+      "description": "A practical first date outfit guide for men with venue-based formulas, grooming rules, fragrance restraint, and mistakes to avoid."
     },
     "simple-outfit-formulas": {
       "title": "Einfache Outfit-Formeln",
