@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
 import { Section } from "@/components/section";
 import {
@@ -36,8 +37,11 @@ export function buildGuideArticleMetadata(
 
 export function GuideArticlePage({ slug, locale }: GuideArticlePageProps) {
   const article = getGuideArticle(slug);
+  const messages = getMessages(locale);
   const localizedPath = localizePath(locale, `/guides/${slug}`);
   const guidesPath = localizePath(locale, "/guides");
+  const homeLabel = messages.common.home;
+  const guidesLabel = messages.nav.guides;
 
   return (
     <article className="space-y-10">
@@ -52,10 +56,19 @@ export function GuideArticlePage({ slug, locale }: GuideArticlePageProps) {
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", path: localizePath(locale, "/") },
-          { name: "Guides", path: guidesPath },
+          { name: homeLabel, path: localizePath(locale, "/") },
+          { name: guidesLabel, path: guidesPath },
           { name: article.title, path: localizedPath },
         ])}
+      />
+
+      <Breadcrumbs
+        locale={locale}
+        items={[
+          { label: homeLabel, href: "/" },
+          { label: guidesLabel, href: "/guides" },
+          { label: article.title },
+        ]}
       />
 
       <Section
