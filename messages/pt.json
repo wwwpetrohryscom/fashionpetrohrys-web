@@ -121,6 +121,10 @@
     "perfumesTopOk": {
       "title": "Top OK: Perfumes fortes com limites",
       "description": "Perfumes que performam bem mas ficam abaixo do nível superior no ranking editorial da Fashion Area Top por valor, originalidade ou versatilidade."
+    },
+    "outfitIdeas": {
+      "title": "Ideias de looks para homens: fórmulas práticas de estilo",
+      "description": "Ideias de looks para homens construídas em torno de jeans pretos, blazers azul-marinho, camisas brancas, mocassins, tênis brancos, calças cinza e fórmulas repetíveis."
     }
   },
   "perfumes": {
@@ -260,5 +264,31 @@
       "title": "Por que o estilo minimalista funciona",
       "description": "Minimalismo é uma restrição, não uma estética. Isto é o que ele realmente entrega."
     }
+  },
+  "outfitIdeas": {
+    "kicker": "Ideias de looks",
+    "title": "Ideias de looks para homens",
+    "hubIntro": "Fórmulas práticas de looks para homens, organizadas por uma peça por página. Cada página mostra combinações que realmente funcionam — o que combinar, o que evitar e por que a fórmula se sustenta.",
+    "hubNote": "A Fashion Area Top trata looks como fórmulas repetíveis, não como galerias de tendências. Cada página começa por uma peça — um blazer marinho, mocassins, uma camisa branca — e constrói a partir dela.",
+    "browseTitle": "Todas as ideias de looks",
+    "methodologyTitle": "Como construímos as fórmulas",
+    "methodologyIntro": "Cada fórmula passa por cinco checagens. Se uma combinação falha em uma delas, é removida antes da publicação.",
+    "methodFormality": "Formalidade — cada peça visível fica a um nível, no máximo, do restante.",
+    "methodColor": "Controle de cor — uma âncora, um apoio, um acento opcional. Nunca quatro cores equivalentes.",
+    "methodFit": "Caimento — a silhueta vem antes dos detalhes. Quebra da calça, comprimento da manga, ombro.",
+    "methodShoes": "Sapatos — o sapato define o teto de formalidade mais do que o paletó.",
+    "methodRepeat": "Repetibilidade — uma fórmula que funciona uma vez é sorte. Três vezes, sistema.",
+    "readFormulas": "Ver fórmulas",
+    "formulasTitle": "Fórmulas de looks",
+    "quickRulesTitle": "Regras rápidas",
+    "whyItWorksTitle": "Por que funciona",
+    "colorRulesTitle": "Regras de cor",
+    "bestShoesTitle": "Melhores sapatos",
+    "mistakesTitle": "Erros a evitar",
+    "relatedTitle": "Relacionados",
+    "piecesLabel": "Peças",
+    "bestForLabel": "Indicado para",
+    "whyLabel": "Por que funciona",
+    "backToHub": "Todas as ideias de looks"
   }
 }

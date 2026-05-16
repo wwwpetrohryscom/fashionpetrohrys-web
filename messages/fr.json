@@ -121,6 +121,10 @@
     "perfumesTopOk": {
       "title": "Top OK : Parfums solides avec des limites",
       "description": "Parfums solides qui performent bien mais restent sous le sommet du classement éditorial Fashion Area Top pour des raisons de prix, d'originalité ou de polyvalence."
+    },
+    "outfitIdeas": {
+      "title": "Idées de tenues pour homme : formules de style pratiques",
+      "description": "Idées de tenues pour homme construites autour du jean noir, du blazer marine, de la chemise blanche, des mocassins, des baskets blanches, du pantalon gris et de formules répétables."
     }
   },
   "perfumes": {
@@ -260,5 +264,31 @@
       "title": "Pourquoi le style minimal fonctionne",
       "description": "Le minimalisme est une contrainte, pas une esthétique. Voici ce qu'il apporte vraiment."
     }
+  },
+  "outfitIdeas": {
+    "kicker": "Idées de tenues",
+    "title": "Idées de tenues pour homme",
+    "hubIntro": "Formules de tenues pratiques pour homme, organisées par pièce. Chaque page montre des combinaisons qui fonctionnent vraiment — quoi associer, quoi éviter, et pourquoi la formule tient.",
+    "hubNote": "Fashion Area Top traite les tenues comme des formules répétables, pas des galeries de tendances. Chaque page part d'une pièce — un blazer marine, des mocassins, une chemise blanche — et construit autour.",
+    "browseTitle": "Toutes les idées de tenues",
+    "methodologyTitle": "Comment nous construisons les formules",
+    "methodologyIntro": "Chaque formule passe cinq vérifications. Si une combinaison échoue à l'une d'elles, elle est retirée avant publication.",
+    "methodFormality": "Formalité — chaque pièce visible reste à un niveau près du reste.",
+    "methodColor": "Couleur — un ancrage, un soutien, un accent optionnel. Jamais quatre couleurs équivalentes.",
+    "methodFit": "Coupe — la silhouette se décide avant les détails. Cassure du pantalon, manche, épaule.",
+    "methodShoes": "Chaussures — la chaussure fixe le plafond de formalité, plus que la veste.",
+    "methodRepeat": "Répétabilité — une formule qui marche une fois est un hasard. Trois fois, c'est un système.",
+    "readFormulas": "Lire les formules",
+    "formulasTitle": "Formules de tenues",
+    "quickRulesTitle": "Règles rapides",
+    "whyItWorksTitle": "Pourquoi ça fonctionne",
+    "colorRulesTitle": "Règles de couleur",
+    "bestShoesTitle": "Meilleures chaussures",
+    "mistakesTitle": "Erreurs à éviter",
+    "relatedTitle": "À voir aussi",
+    "piecesLabel": "Pièces",
+    "bestForLabel": "Idéal pour",
+    "whyLabel": "Pourquoi ça fonctionne",
+    "backToHub": "Toutes les idées de tenues"
   }
 }

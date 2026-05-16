@@ -121,6 +121,10 @@
     "perfumesTopOk": {
       "title": "Top OK Perfums: Starke Düfte mit Grenzen",
       "description": "Starke Parfums mit guter Leistung, die im redaktionellen Fashion Area Top-Ranking unterhalb der Spitze bleiben — wegen Preis-Leistung, Originalität oder Vielseitigkeit."
+    },
+    "outfitIdeas": {
+      "title": "Outfit-Ideen für Männer: Praktische Stilformeln",
+      "description": "Praktische Outfit-Ideen für Männer rund um schwarze Jeans, Navy-Blazer, weiße Hemden, Loafers, weiße Sneaker, graue Hosen und wiederholbare Stilformeln."
     }
   },
   "perfumes": {
@@ -260,5 +264,31 @@
       "title": "Warum minimaler Stil funktioniert",
       "description": "Minimalismus ist ein Constraint, keine Ästhetik. Das bringt er wirklich."
     }
+  },
+  "outfitIdeas": {
+    "kicker": "Outfit-Ideen",
+    "title": "Outfit-Ideen für Männer",
+    "hubIntro": "Praktische Outfit-Formeln für Männer, organisiert nach einem Kleidungsstück pro Seite. Jede Seite zeigt Kombinationen, die wirklich funktionieren — was zusammenpasst, was nicht, und warum die Formel hält.",
+    "hubNote": "Fashion Area Top behandelt Outfits als wiederholbare Formeln, nicht als Trend-Galerien. Jede Seite beginnt mit einem Stück — einem Navy-Blazer, einem Paar Loafers, einem weißen Hemd — und baut von dort aus auf.",
+    "browseTitle": "Alle Outfit-Ideen",
+    "methodologyTitle": "So bauen wir Outfit-Formeln",
+    "methodologyIntro": "Jede Formel auf dieser Seite besteht fünf Prüfungen. Bricht eine Kombination eine davon, fliegt sie raus, bevor sie veröffentlicht wird.",
+    "methodFormality": "Formalität — jedes sichtbare Teil liegt höchstens eine Stufe über oder unter dem Rest.",
+    "methodColor": "Farbkontrolle — ein Anker, eine Unterstützung, optional ein Akzent. Niemals vier gleichwertige Farben.",
+    "methodFit": "Passform — die Silhouette steht vor den Details. Hosenbruch, Ärmellänge, Schulter.",
+    "methodShoes": "Schuhe — der Schuh setzt die formelle Obergrenze stärker als die Jacke.",
+    "methodRepeat": "Wiederholbarkeit — eine Formel, die einmal funktioniert, ist Zufall. Dreimal ist System.",
+    "readFormulas": "Formeln lesen",
+    "formulasTitle": "Outfit-Formeln",
+    "quickRulesTitle": "Schnellregeln",
+    "whyItWorksTitle": "Warum es funktioniert",
+    "colorRulesTitle": "Farbregeln",
+    "bestShoesTitle": "Beste Schuhe",
+    "mistakesTitle": "Häufige Fehler",
+    "relatedTitle": "Verwandt",
+    "piecesLabel": "Teile",
+    "bestForLabel": "Geeignet für",
+    "whyLabel": "Warum es funktioniert",
+    "backToHub": "Alle Outfit-Ideen"
   }
 }
