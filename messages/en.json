@@ -121,6 +121,10 @@
     "perfumesTopOk": {
       "title": "Top OK Perfumes: Strong Fragrances with Limits",
       "description": "Strong perfumes that perform well but sit below the top tier in Fashion Area Top's editorial ranking due to value, originality, or versatility limits."
+    },
+    "outfitIdeas": {
+      "title": "Outfit Ideas for Men: Practical Style Formulas",
+      "description": "Practical men's outfit ideas built around black jeans, navy blazers, white shirts, loafers, white sneakers, grey trousers, and repeatable style formulas."
     }
   },
   "perfumes": {
@@ -260,5 +264,31 @@
       "title": "Why Minimal Style Works",
       "description": "Minimalism is a constraint, not an aesthetic. Here is what the constraint actually buys you."
     }
+  },
+  "outfitIdeas": {
+    "kicker": "Outfit Ideas",
+    "title": "Outfit Ideas for Men",
+    "hubIntro": "Practical men's outfit formulas, organised by one wardrobe item at a time. Each page shows combinations that actually work — what to pair, what to avoid, and why the formula holds together.",
+    "hubNote": "Fashion Area Top treats outfits as repeatable formulas, not trend galleries. The pages start with one piece — a navy blazer, a pair of loafers, a white shirt — and build outwards from there.",
+    "browseTitle": "All outfit ideas",
+    "methodologyTitle": "How we build outfit formulas",
+    "methodologyIntro": "Every formula on this site is built against the same five checks. If a combination breaks one of them, it's removed before it goes on the page.",
+    "methodFormality": "Formality — every visible piece sits within one level of every other piece.",
+    "methodColor": "Color control — one anchor, one support, optional accent. Never four equal colours.",
+    "methodFit": "Fit — silhouette is decided before details. Trouser break, sleeve length, shoulder.",
+    "methodShoes": "Shoes — the shoe sets the formality ceiling more than the jacket does.",
+    "methodRepeat": "Repeatability — a formula that works once is a coincidence. Three times is a system.",
+    "readFormulas": "Read formulas",
+    "formulasTitle": "Outfit formulas",
+    "quickRulesTitle": "Quick rules",
+    "whyItWorksTitle": "Why it works",
+    "colorRulesTitle": "Color rules",
+    "bestShoesTitle": "Best shoes",
+    "mistakesTitle": "Mistakes to avoid",
+    "relatedTitle": "Related",
+    "piecesLabel": "Pieces",
+    "bestForLabel": "Best for",
+    "whyLabel": "Why it works",
+    "backToHub": "All outfit ideas"
   }
 }

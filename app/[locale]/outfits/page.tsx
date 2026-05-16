@@ -92,7 +92,16 @@ export default async function OutfitsPage({ params }: LocalePageProps) {
         <Link className="underline" href={localizePath(locale, "/system")}>
           The System
         </Link>{" "}
-        for the rules every outfit on this page follows.
+        for the rules every outfit on this page follows. For long-tail
+        formulas built around one wardrobe item — black jeans, navy
+        blazer, white shirt, loafers, white sneakers, grey trousers — see{" "}
+        <Link
+          className="underline"
+          href={localizePath(locale, "/outfit-ideas")}
+        >
+          Outfit Ideas
+        </Link>
+        .
       </p>
     </div>
   );

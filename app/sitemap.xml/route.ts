@@ -1,4 +1,5 @@
 import { ARTICLES, type ArticleCategory } from "@/data/articles";
+import { OUTFIT_IDEAS } from "@/data/outfit-ideas";
 import { PERFUMES } from "@/data/perfumes";
 import { LOCALES, localizePath, type Locale } from "@/lib/i18n";
 import { SITE_CONFIG } from "@/lib/seo";
@@ -32,6 +33,13 @@ function latestPerfumeUpdate(): string | undefined {
   return toIsoDate(updates[updates.length - 1]);
 }
 
+function latestOutfitIdeaUpdate(): string | undefined {
+  const updates = OUTFIT_IDEAS.map((idea) => idea.updatedAt);
+  if (updates.length === 0) return undefined;
+  updates.sort();
+  return toIsoDate(updates[updates.length - 1]);
+}
+
 const CATEGORY_LASTMOD: Record<string, string | undefined> = {
   "/method": latestArticleUpdate("system"),
   "/system": latestArticleUpdate("system"),
@@ -40,6 +48,7 @@ const CATEGORY_LASTMOD: Record<string, string | undefined> = {
   "/clothing": latestArticleUpdate("clothing"),
   "/psychology": latestArticleUpdate("psychology"),
   "/perfumes": latestPerfumeUpdate(),
+  "/outfit-ideas": latestOutfitIdeaUpdate(),
 };
 
 const HOME_ROUTES: SitemapEntry[] = [
@@ -55,10 +64,18 @@ const CATEGORY_ROUTES: SitemapEntry[] = (
     { path: "/clothing", changeFrequency: "monthly", priority: "0.8" },
     { path: "/psychology", changeFrequency: "monthly", priority: "0.8" },
     { path: "/perfumes", changeFrequency: "monthly", priority: "0.8" },
+    { path: "/outfit-ideas", changeFrequency: "monthly", priority: "0.8" },
   ] as SitemapEntry[]
 ).map((entry) => ({
   ...entry,
   lastModified: CATEGORY_LASTMOD[entry.path] ?? entry.lastModified,
+}));
+
+const OUTFIT_IDEA_ROUTES: SitemapEntry[] = OUTFIT_IDEAS.map((idea) => ({
+  path: idea.href,
+  changeFrequency: "monthly",
+  priority: "0.7",
+  lastModified: toIsoDate(idea.updatedAt),
 }));
 
 const ARTICLE_ROUTES: SitemapEntry[] = ARTICLES.map((article) => ({
@@ -103,6 +120,7 @@ const ROUTES: SitemapEntry[] = [
   ...ARTICLE_ROUTES,
   ...PERFUME_TIER_ROUTES,
   ...PERFUME_ROUTES,
+  ...OUTFIT_IDEA_ROUTES,
   ...SHOP_ROUTES,
   ...LEGAL_ROUTES,
 ];

@@ -121,6 +121,10 @@
     "perfumesTopOk": {
       "title": "Top OK: Perfumes sólidos con limitaciones",
       "description": "Perfumes que rinden bien pero quedan por debajo del nivel superior en el ranking editorial de Fashion Area Top por valor, originalidad o versatilidad."
+    },
+    "outfitIdeas": {
+      "title": "Ideas de outfits para hombres: fórmulas de estilo prácticas",
+      "description": "Ideas de outfits para hombres construidas alrededor de jeans negros, blazers azul marino, camisas blancas, mocasines, zapatillas blancas, pantalones grises y fórmulas repetibles."
     }
   },
   "perfumes": {
@@ -260,5 +264,31 @@
       "title": "Por qué funciona el estilo minimalista",
       "description": "El minimalismo es una restricción, no una estética. Esto es lo que realmente aporta."
     }
+  },
+  "outfitIdeas": {
+    "kicker": "Ideas de outfits",
+    "title": "Ideas de outfits para hombres",
+    "hubIntro": "Fórmulas de outfits prácticas para hombres, organizadas por una prenda por página. Cada página muestra combinaciones que sí funcionan — qué combinar, qué evitar y por qué la fórmula se sostiene.",
+    "hubNote": "Fashion Area Top trata los outfits como fórmulas repetibles, no como galerías de tendencias. Cada página parte de una prenda — un blazer azul marino, unos mocasines, una camisa blanca — y construye desde ahí.",
+    "browseTitle": "Todas las ideas de outfits",
+    "methodologyTitle": "Cómo construimos las fórmulas",
+    "methodologyIntro": "Cada fórmula pasa cinco controles. Si una combinación falla en uno, se elimina antes de publicarse.",
+    "methodFormality": "Formalidad — cada pieza visible queda a un nivel como máximo del resto.",
+    "methodColor": "Color — un ancla, un soporte, un acento opcional. Nunca cuatro colores equivalentes.",
+    "methodFit": "Corte — la silueta se decide antes que los detalles. Caída del pantalón, manga, hombro.",
+    "methodShoes": "Zapatos — el zapato fija el techo de formalidad más que la chaqueta.",
+    "methodRepeat": "Repetibilidad — una fórmula que funciona una vez es casualidad. Tres veces, sistema.",
+    "readFormulas": "Ver fórmulas",
+    "formulasTitle": "Fórmulas de outfits",
+    "quickRulesTitle": "Reglas rápidas",
+    "whyItWorksTitle": "Por qué funciona",
+    "colorRulesTitle": "Reglas de color",
+    "bestShoesTitle": "Mejores zapatos",
+    "mistakesTitle": "Errores a evitar",
+    "relatedTitle": "Relacionados",
+    "piecesLabel": "Piezas",
+    "bestForLabel": "Ideal para",
+    "whyLabel": "Por qué funciona",
+    "backToHub": "Todas las ideas de outfits"
   }
 }
